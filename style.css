@@ -63,18 +63,22 @@ h1 a:hover {
 }
 
 .nav-tabs a {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
     text-decoration: none;
-    color: var(--accent-gold);
+    color: #c59b27;
     font-weight: 300;
     text-transform: lowercase;
-    letter-spacing: 1.5px;
-    font-size: 0.95em;
-    transition: color 0.3s ease;
+    letter-spacing: 0.5px;
+    font-size: 1.15em;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .nav-tabs a:hover {
     color: var(--accent-gold-hover);
+    transform: translateY(-1px);
+    text-shadow: 0 0 8px rgba(197, 155, 39, 0.3);
 }
 
 /* Typography */
