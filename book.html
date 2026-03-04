@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineeth Chintala - Teaching (Graph Theory)</title>
+    <title>Vineeth Chintala - Graphs, Games, Algorithms</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -125,27 +125,21 @@
             margin-bottom: 60px;
         }
 
-        ul.resource-list,
-        ul.chapters-list {
+        .quote {
+            font-style: italic;
+            color: var(--text-secondary);
+            border-left: 1px solid var(--accent-gold);
+            padding-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        ul {
             list-style-type: none;
             padding-left: 0;
         }
 
-        ul.resource-list li,
-        ul.chapters-list li {
-            margin-bottom: 10px;
-        }
-
-        ul.chapters-list li {
-            position: relative;
-            padding-left: 20px;
-        }
-
-        ul.chapters-list li::before {
-            content: "•";
-            color: var(--accent-gold);
-            position: absolute;
-            left: 0;
+        ul li {
+            margin-bottom: 15px;
         }
 
         footer {
@@ -182,10 +176,35 @@
                 Algorithms at the University of Hyderabad in 2021-22.</p>
         </section>
 
-        <li><strong>Senses of a Graph:</strong> surveys major themes</li>
-        </ul>
-        <p>This is intended to be a short fun book covering graph theory and algorithms, designed to be useful
-            irrespective of your major. Feel free to send me feedback.</p>
+        <section id="updates"
+            style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 60px;">
+            <img src="graphs.jpg" alt="Graphs, Games, Algorithms Book Cover"
+                style="width: 25%; object-fit: contain; border-radius: 4px;">
+            <div style="flex: 1;">
+                <h3 style="margin-top: 0;">Updates:</h3>
+                <p>
+                    free ebook: <a
+                        href="https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view?usp=sharing">Graphs,
+                        Games, Algorithms</a><br>
+                    Paperback available on <a href="https://www.amazon.com/dp/B0G7Y588JN">Amazon</a><br>
+                    <strong>December 2025:</strong> Book completed! There are now more than 50 diagrams adding intuition
+                    to
+                    many proofs.
+                </p>
+                <p>Description: Some of the special chapters are called "gems from grad school". These are beautiful
+                    results discovered by people while they were graduate students. Maybe one of these stories will
+                    inspire
+                    you too. Who knows where the next big idea will come from!</p>
+                <p>The book is extremely modular so read the chapters that appeal to you first.</p>
+                <ul class="chapters-list">
+                    <li><strong>Better Way:</strong> uses puzzles to introduce core principles</li>
+                    <li><strong>Way Better:</strong> covers classic algorithms</li>
+                    <li><strong>The Unreasonable Power of Linear Algebra:</strong> showcases algebraic techniques</li>
+                    <li><strong>Senses of a Graph:</strong> surveys major themes</li>
+                </ul>
+                <p>This is intended to be a short fun book covering graph theory and algorithms, designed to be useful
+                    irrespective of your major. Feel free to send me feedback.</p>
+            </div>
         </section>
 
         <section id="resources">
