@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineeth Chintala - Research</title>
+    <title>Vineeth Chintala - Favourite Reads</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,7 +52,6 @@
         h1 {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 2.0em;
-            /* adjusted for side layout */
             color: var(--accent-gold);
             font-weight: 500;
             margin: 0;
@@ -75,7 +74,7 @@
             padding: 0;
             margin: 0;
             display: flex;
-            gap: 30px;
+            gap: 20px;
         }
 
         .nav-tabs a {
@@ -85,7 +84,7 @@
             font-weight: 300;
             text-transform: lowercase;
             letter-spacing: 1.5px;
-            font-size: 0.95em;
+            font-size: 0.85em;
             transition: color 0.3s ease;
         }
 
@@ -125,16 +124,16 @@
             margin-bottom: 40px;
         }
 
-        ul.publication-list {
+        ul.book-list {
             list-style-type: none;
             padding-left: 0;
         }
 
-        ul.publication-list li {
-            margin-bottom: 15px;
+        ul.book-list li {
+            margin-bottom: 5px;
         }
 
-        ul.publication-list li::before {
+        ul.book-list li::before {
             content: "•";
             color: var(--accent-gold);
             display: inline-block;
@@ -170,62 +169,42 @@
             </nav>
         </header>
 
-        <section id="research-intro">
-            <h2>Research</h2>
+        <section id="reads-intro">
+            <h2>Favourite Reads</h2>
             <div class="quote">
-                The secret to doing good research is to always be a little underemployed. You waste years by not being
-                able to waste hours - Amos Tversky
+                Great Reading Experiences: Craving for a new book is like craving for a new friend - who we expect to
+                have all the qualities of the old ones and still be able to constantly surprise us.
             </div>
-            <p><small>(If you have time for only one paper, look at Two Lives.)</small></p>
         </section>
 
-        <section id="matrix-trilogy">
-            <h3>A Matrix Trilogy</h3>
-            <ul class="publication-list">
-                <li>
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub">Two
-                        lives: Compositions of Unimodular rows</a>, Advances in Mathematics 389 (2021), 107917.
-                    &nbsp;&nbsp;
-                    <a href="https://arxiv.org/pdf/2101.03862.pdf">[arXiv]</a>
-                    <p style="font-size: 0.9em; margin-top: 5px;">When multiple research areas evolve around the same
-                        object, one expects that there is a connection between them. The more distinct the methods are,
-                        the more fruitful this connection will be. In this paper, we will explore this double life for
-                        unimodular rows.</p>
-                </li>
-                <li>
-                    <a href="https://www.elibm.org/article/10011885">Embeddings of Quadratic Spaces</a>, Documenta Math.
-                    23 (2018) 1621 - 1634
-                </li>
-                <li>
-                    <a href="https://www.elibm.org/article/10000386">On Suslin matrices and their connection to Spin
-                        Groups</a>, Documenta Math. 20 (2015) 531 - 550. &nbsp;&nbsp;
-                    <a href="https://arxiv.org/pdf/2009.12107.pdf">[arXiv]</a>
-                </li>
+        <section id="fiction">
+            <h3>Fiction</h3>
+            <ul class="book-list">
+                <li>In Search of lost time - Marcel Proust</li>
+                <li>The man without qualities - Robert Musil</li>
+                <li>Gateway - Frederik Pohl</li>
+                <li>The Golden Notebook - Doris Lessing</li>
+                <li>Exhalation - Ted Chiang</li>
+            </ul>
+            <p><strong>19th-century Russian literature, in particular:</strong></p>
+            <ul class="book-list">
+                <li>The shot, Eugene Onegin - Alexander Pushkin</li>
+                <li>Sketches from a hunter's album - Ivan Turgenev</li>
             </ul>
         </section>
 
-        <section id="noncommutative-rings">
-            <h3>Noncommutative rings</h3>
-            <ul class="publication-list">
-                <li>Centrality and partition of idempotents <a href="https://arxiv.org/abs/2311.08404">[preprint]</a>
-                </li>
-                <li>A partition of finite rings makes lifting possible <a
-                        href="https://arxiv.org/abs/2009.12508">[preprint]</a></li>
-                <li>Sorry, the nilpotents are in the center <a href="https://arxiv.org/abs/1805.11451">[preprint]</a>
-                </li>
-                <li>
-                    <a href="https://www.worldscientific.com/doi/10.1142/S0219498812500892">Maximum number of solutions
-                        of x<sup>q</sup> = x in a finite noncommutative algebra</a>, Journal of Algebra and its
-                    applications, Volume 11, Number 5, 2012.
-                </li>
-            </ul>
-        </section>
-
-        <section id="microeconomics">
-            <h3>Microeconomics</h3>
-            <ul class="publication-list">
-                <li>Two values are sufficient for choice consistency <a
-                        href="https://osf.io/preprints/socarxiv/gf6wq/">[preprint]</a></li>
+        <section id="nonfiction">
+            <h3>Nonfiction</h3>
+            <ul class="book-list">
+                <li>Repeat after me, David Sedaris</li>
+                <li>Hitchcock-Truffaut interviews</li>
+                <li>Far from the tree, Andrew Solomon</li>
+                <li>Consider this, Chuck Palahniuk</li>
+                <li>The Power Broker, Robert Caro</li>
+                <li>The Undoing Project, Michael Lewis</li>
+                <li>Death and life of great American cities, Jane Jacobs</li>
+                <li>The sensual Quadratic Form, John Conway</li>
+                <li>Economics, Hugh Stretton</li>
             </ul>
         </section>
 
