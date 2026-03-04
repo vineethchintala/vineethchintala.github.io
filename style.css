@@ -30,19 +30,20 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 60px;
     flex-wrap: nowrap;
     gap: 20px;
 }
 
 h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.5em;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8em;
     color: #c59b27;
-    font-weight: 300;
+    font-weight: 600;
+    font-style: italic;
     margin: 0;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.02em;
 }
 
 h1 a {
