@@ -1,1 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vineeth Chintala</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Space+Grotesk:wght@300;500&display=swap" rel="stylesheet">
 
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        /* Color Palette: Dark Teal (#003333) and Metallic Gold (#D4AF37) */
+        :root {
+            --bg-color: #002b2b;
+            --container-bg: #003333;
+            --text-primary: #e0e0e0;
+            --text-secondary: #b0c4c4;
+            --accent-gold: #D4AF37;
+            --accent-gold-hover: #f1d592;
+            --teal-link: #5fb3b3;
+        }
+
+        body { 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            line-height: 1.8; 
+            color: var(--text-primary); 
+            background-color: var(--bg-color); 
+            margin: 0;
+            padding: 0;
+            font-weight: 300;
+        }
+
+        /* Centered Container */
+        .container { 
+            max-width: 700px; 
+            margin: 0 auto; 
+            padding: 80px 24px; 
+        }
+
+        /* Header and Navigation Tabs */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        h1 { 
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.4em; 
+            color: var(--accent-gold); 
+            font-weight: 500;
+            margin: 0 0 20px 0;
+            letter-spacing: -0.03em;
+        }
+
+        .nav-tabs {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+            padding-bottom: 20px;
+        }
+
+        .nav-tabs a {
+            font-family: 'Space Grotesk', sans-serif;
+            text-decoration: none;
+            color: var(--accent-gold); 
+            font-weight: 300;
+            text-transform: lowercase;
+            letter-spacing: 1.5px;
+            font-size: 0.95em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-tabs a:hover {
+            color: var(--accent-gold-hover); 
+        }
+
+        /* Typography */
+        h2, h3 { 
+            font-family: 'Space Grotesk', sans-serif;
+            color: var(--accent-gold); 
+            font-weight: 500;
+            margin-top: 40px;
+        }
+
+        a { 
+            color: var(--teal-link); 
+            text-decoration: none; 
+            transition: opacity 0.3s ease;
+        }
+
+        a:hover { 
+            opacity: 0.8;
+        }
+
+        /* Content Sections */
+        section { margin-bottom: 60px; }
+
+        .book-box { 
+            border: 1px solid rgba(212, 175, 55, 0.3); 
+            padding: 30px; 
+            background-color: var(--container-bg);
+            border-radius: 4px;
+        }
+
+        .poem { 
+            font-style: italic; 
+            color: var(--text-secondary); 
+            white-space: pre-wrap; 
+            border-left: 1px solid var(--accent-gold); 
+            padding-left: 25px;
+            font-size: 0.95em;
+            line-height: 1.9;
+        }
+
+        .poem-note {
+            font-size: 0.8em; 
+            color: #6a8a8a; 
+            margin-top: 15px;
+        }
+
+        footer { 
+            text-align: center; 
+            margin-top: 100px; 
+            font-size: 0.8em; 
+            color: #557777; 
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Math Styling */
+        .mjx-chtml { color: var(--text-primary) !important; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>vineeth chintala</h1>
+        <nav>
+            <ul class="nav-tabs">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#research">research</a></li>
+                <li><a href="#book">book</a></li>
+                <li><a href="https://vineethchintala.substack.com">writing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <p>I am a mathematician and researcher interested in Algebra, Behavioural Economics, Market Design, Algorithms, and NLP.</p>
+        <p>Previously a Fulbright Scholar at UCSD (2021-22). I hold a PhD in Mathematics from TIFR Mumbai.</p>
+        <p>Contact: <a href="mailto:vineethreddy90@gmail.com">vineethreddy90@gmail.com</a></p>
+    </section>
+
+    <section id="book" class="book-box">
+        <h3>Graphs, Games, Algorithms</h3>
+        <p>A modular exploration of graph theory designed for a general audience. It features "gems from grad school"—elegant results discovered by students that shaped the field.</p>
+        <p>
+            <a href="#">Free eBook</a> &nbsp;•&nbsp; 
+            <a href="https://www.amazon.com">Amazon (US)</a> &nbsp;•&nbsp; 
+            <a href="#">Amazon (India)</a>
+        </p>
+    </section>
+
+
+
+    <section id="poem">
+        <h3>PhD Poem</h3>
+        <div class="poem">
+Over five long years of PhD
+Adding tardy reading and youthful spree,
+my life has progressed
+close to Mumbai's sea
+
+Tuned to lazy boring (or playful glee),
+I was possessed
+first by rings, groups and Suslin's theorem
+then by Musil, Proust's and Pushkin's rhythm
+all the words that made me wiser
+for all the work, I thank my advisor
+and wish him well as I close this door
+
+Adios! Food and summer, I won't miss I'm sure;
+But friends I'll remember - the fun, the obscure,
+the plain - even the ones who keep a score...
+
+Goodbye to you too, dear reader, until we meet again
+perhaps what was lived was not in vain...
+        </div>
+        <p class="poem-note">(Written for my PhD thesis acknowledgements.)</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Vineeth Chintala 
+    </footer>
+</div>
+
+</body>
+</html>
