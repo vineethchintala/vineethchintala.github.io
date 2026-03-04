@@ -4,16 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vineeth Chintala</title>
+    <title>Vineeth Chintala - Research</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Space+Grotesk:wght@300;500&display=swap"
         rel="stylesheet">
-
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     <style>
         /* Color Palette: Light Teal and Metallic Gold */
@@ -120,27 +117,29 @@
             margin-bottom: 60px;
         }
 
-        .book-box {
-            border: 1px solid rgba(212, 175, 55, 0.3);
-            padding: 30px;
-            background-color: var(--container-bg);
-            border-radius: 4px;
-        }
-
-        .poem {
+        .quote {
             font-style: italic;
             color: var(--text-secondary);
-            white-space: pre-wrap;
             border-left: 1px solid var(--accent-gold);
-            padding-left: 25px;
-            font-size: 0.95em;
-            line-height: 1.9;
+            padding-left: 20px;
+            margin-bottom: 40px;
         }
 
-        .poem-note {
-            font-size: 0.8em;
-            color: black;
-            margin-top: 15px;
+        ul.publication-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul.publication-list li {
+            margin-bottom: 15px;
+        }
+
+        ul.publication-list li::before {
+            content: "•";
+            color: var(--accent-gold);
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
         }
 
         footer {
@@ -148,14 +147,8 @@
             margin-top: 100px;
             font-size: 0.8em;
             color: black;
-            /* was #557777 */
             letter-spacing: 1px;
             text-transform: uppercase;
-        }
-
-        /* Math Styling */
-        .mjx-chtml {
-            color: var(--text-primary) !important;
         }
     </style>
 </head>
@@ -174,45 +167,63 @@
             </nav>
         </header>
 
-        <section id="about">
-            <p>I am a mathematician and researcher interested in Algebra, Behavioural Economics, Market Design,
-                Algorithms, and NLP.</p>
-            <p>Previously a Fulbright Scholar at UCSD (2021-22). I hold a PhD in Mathematics from TIFR Mumbai.</p>
-            <p>Contact: <a href="mailto:vineethreddy90@gmail.com">vineethreddy90@gmail.com</a></p>
-        </section>
-
-        <section id="book" class="book-box">
-            <h3>Graphs, Games, Algorithms</h3>
-            <p>A modular exploration of graph theory designed for a general audience. It features "gems from grad
-                school"—elegant results discovered by students that shaped the field.</p>
-            <p>
-                <a href="https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view">Free eBook</a>
-                &nbsp;•&nbsp;
-                <a href="https://www.amazon.com/dp/B0G7Y588JN">Amazon (US)</a>
-            </p>
-        </section>
-
-
-
-        <section id="poem">
-            <h3>PhD Poem</h3>
-            <div class="poem">
-                Over five long years of PhD
-                Adding tardy reading and youthful spree, my life has progressed
-                close to Mumbai's sea
-                Tuned to lazy boring (or playful glee), I was possessed
-                first by rings, groups and Suslin's theorem
-                then by Musil, Proust's and Pushkin's rhythm
-                all the words that made me wiser
-                for all the work, I thank my advisor
-                and wish him well as I close this door
-                Adios! Food and summer, I won't miss I'm sure;
-                But friends I'll remember - the fun, the obscure,
-                the plain - even the ones who keep a score...
-                Goodbye to you too, dear reader, until we meet again
-                perhaps what was lived was not in vain...
+        <section id="research-intro">
+            <h2>Research</h2>
+            <div class="quote">
+                The secret to doing good research is to always be a little underemployed. You waste years by not being
+                able to waste hours - Amos Tversky
             </div>
-            <p class="poem-note">(Written for my PhD thesis acknowledgements.)</p>
+            <p><small>(If you have time for only one paper, look at Two Lives.)</small></p>
+        </section>
+
+        <section id="matrix-trilogy">
+            <h3>A Matrix Trilogy</h3>
+            <ul class="publication-list">
+                <li>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub">Two
+                        lives: Compositions of Unimodular rows</a>, Advances in Mathematics 389 (2021), 107917.
+                    &nbsp;&nbsp;
+                    <a href="https://arxiv.org/pdf/2101.03862.pdf">[arXiv]</a>
+                    <p style="font-size: 0.9em; margin-top: 5px;">When multiple research areas evolve around the same
+                        object, one expects that there is a connection between them. The more distinct the methods are,
+                        the more fruitful this connection will be. In this paper, we will explore this double life for
+                        unimodular rows.</p>
+                </li>
+                <li>
+                    <a href="https://www.elibm.org/article/10011885">Embeddings of Quadratic Spaces</a>, Documenta Math.
+                    23 (2018) 1621 - 1634
+                </li>
+                <li>
+                    <a href="https://www.elibm.org/article/10000386">On Suslin matrices and their connection to Spin
+                        Groups</a>, Documenta Math. 20 (2015) 531 - 550. &nbsp;&nbsp;
+                    <a href="https://arxiv.org/pdf/2009.12107.pdf">[arXiv]</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="noncommutative-rings">
+            <h3>Noncommutative rings</h3>
+            <ul class="publication-list">
+                <li>Centrality and partition of idempotents <a href="https://arxiv.org/abs/2311.08404">[preprint]</a>
+                </li>
+                <li>A partition of finite rings makes lifting possible <a
+                        href="https://arxiv.org/abs/2009.12508">[preprint]</a></li>
+                <li>Sorry, the nilpotents are in the center <a href="https://arxiv.org/abs/1805.11451">[preprint]</a>
+                </li>
+                <li>
+                    <a href="https://www.worldscientific.com/doi/10.1142/S0219498812500892">Maximum number of solutions
+                        of x<sup>q</sup> = x in a finite noncommutative algebra</a>, Journal of Algebra and its
+                    applications, Volume 11, Number 5, 2012.
+                </li>
+            </ul>
+        </section>
+
+        <section id="microeconomics">
+            <h3>Microeconomics</h3>
+            <ul class="publication-list">
+                <li>Two values are sufficient for choice consistency <a
+                        href="https://osf.io/preprints/socarxiv/gf6wq/">[preprint]</a></li>
+            </ul>
         </section>
 
         <footer>
