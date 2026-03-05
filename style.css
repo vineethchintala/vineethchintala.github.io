@@ -40,7 +40,7 @@ header {
 h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.8em;
-    color: #c59b27;
+    color: teal;
     font-weight: 600;
     font-style: normal;
     margin: 0;
@@ -48,13 +48,13 @@ h1 {
 }
 
 h1 a {
-    color: #c59b27;
+    color: teal;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 h1 a:hover {
-    color: var(--accent-gold-hover);
+    color: #c59b27;
     opacity: 1;
 }
 
@@ -70,7 +70,7 @@ h1 a:hover {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     text-decoration: none;
-    color: #c59b27;
+    color: teal;
     font-weight: 600;
     text-transform: lowercase;
     letter-spacing: 0.05em;
@@ -80,7 +80,7 @@ h1 a:hover {
 }
 
 .nav-tabs a:hover {
-    color: var(--accent-gold-hover);
+    color: #c59b27;
     transform: translateY(-1px);
     text-shadow: 0 0 8px rgba(197, 155, 39, 0.3);
 }
