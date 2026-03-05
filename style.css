@@ -23,13 +23,7 @@ body {
 .container {
     max-width: 700px;
     margin: 0 auto;
-    padding: 0 24px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-top: 12vh;
-    /* Optical centering: lift content higher */
+    padding: 20px 24px;
 }
 
 /* Header and Navigation Tabs */
@@ -37,7 +31,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 60px;
+    margin-bottom: 10vh;
+    /* Optical lift for content below */
     flex-wrap: nowrap;
     gap: 20px;
 }
