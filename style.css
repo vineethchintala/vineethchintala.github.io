@@ -1,6 +1,6 @@
 /* Color Palette: Light Teal and Metallic Gold */
 :root {
-    --bg-color: color-mix(in srgb, white 98%, teal 2%);
+    --bg-color: color-mix(in srgb, white 98%, #c59b27 2%);
     --container-bg: rgba(255, 255, 255, 0.9);
     --text-primary: black;
     --text-secondary: black;
@@ -160,7 +160,6 @@ ul li {
 }
 
 /* Publication and Book Lists with Bullet Points */
-ul.publication-list li::before,
 ul.book-list li::before {
     content: "•";
     color: var(--accent-gold);
