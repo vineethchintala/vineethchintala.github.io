@@ -1,0 +1,6 @@
+<div class="poem">
+    {{ .Inner }}
+</div>
+{{ if .Get "note" }}
+<p class="poem-note">{{ .Get "note" }}</p>
+{{ end }}

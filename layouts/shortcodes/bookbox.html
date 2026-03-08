@@ -1,0 +1,8 @@
+<div class="book-box"
+    style="display: flex; flex-direction: row; align-items: flex-start; gap: 30px; margin-bottom: 60px;">
+    <img src="{{ .Get " img" }}" alt="{{ .Get " alt" }}" style="width: 25%; object-fit: contain; border-radius: 4px;">
+    <div style="flex: 1;">
+        <h3 style="margin-top: 0;">{{ .Get "title" }}</h3>
+        {{ .Inner | markdownify }}
+    </div>
+</div>
