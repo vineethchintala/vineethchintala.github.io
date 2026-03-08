@@ -166,6 +166,14 @@ ul li {
     margin-bottom: 15px;
 }
 
+ul li p {
+    margin-bottom: 10px;
+}
+
+ul li p:not(:first-child) {
+    margin-left: 25px;
+}
+
 /* Publication and Book Lists with Bullet Points */
 ul.book-list li::before {
     content: "•";

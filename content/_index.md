@@ -5,7 +5,7 @@ title: "Vineeth Chintala"
 {{< bookbox title="Graphs, Games, Algorithms" img="https://vineethchintala.com/graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
 A short fun introduction to graphs and algorithms (based on my undergraduate courses)
 
-[Free eBook](https://drive.google.com/file/d/16zmmdpEycsWn খাঁnPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
+[Free eBook](https://drive.google.com/file/d/16zmmdpEycsWPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
 {{< /bookbox >}}
 
 I'm Vineeth, a writer and mathematician. Every few years, I try to explore a new field in depth. From 2016-2019, I worked in Game theory and Behavioural Economics. Prior to that, I did a PhD in Mathematics. I also spent a year as a Fulbright Scholar in 2021-22.
