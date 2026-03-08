@@ -24,6 +24,18 @@ Once the novel starts, what one really wants to see (and sees) is the hero at th
 Huge ambition for a novel. A thinking novel, with a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
 {{< /desc >}}
 
+
+**Eugene Onegin** - Alexander Pushkin 
+{{< /desc >}}
+
+In my world, this is the best type of novel - short, deep and playful. The narrator’s relationship to the reader (if that makes sense) -  the close distance between them, and the lightness - is probably unmatched.
+
+ With exquisite timing, Pushkin can keep you waiting with anticipation or pass two comments to make a quick transition that other writers use pages to develop. In short, Eugene Onegin is never boring!
+
+What else can I say? After reading Eugene Onegin five times after finding it in a used bookstore, Vikram Seth was inspired to write The Golden Gate in the same rhyme pattern. Check out the James Falen translation.
+{{< /desc >}}
+
+
 **Gateway** - Frederik Pohl
 
 **The Golden Notebook** - Doris Lessing
@@ -32,7 +44,7 @@ Huge ambition for a novel. A thinking novel, with a big creamy layer of lightnes
 
 **19th-century Russian literature, in particular:**
 
-**The shot**, **Eugene Onegin** - Alexander Pushkin
+**The shot** - Alexander Pushkin
 
 **Sketches from a hunter's album** - Ivan Turgenev
 
