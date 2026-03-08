@@ -21,7 +21,7 @@ Many writers are good at capturing a particular emotion, a specific moment.  Pro
 {{< desc >}}
 Once the novel starts, what one really wants to see (and sees) is the hero at the boundaries of crime and morality. And every time he observes such a boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values. 
 
-A thinking novel, baked with a huge ambition and a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
+A thinking novel, baked with huge ambition and a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
 {{< /desc >}}
 
 
