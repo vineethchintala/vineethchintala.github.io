@@ -8,7 +8,7 @@ title: "Reading"
 
 ### Fiction
 
-*   **In Search of lost time** - Marcel Proust
+* **In Search of lost time** - Marcel Proust
     
     Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing intimately, and so precisely like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
 
@@ -16,7 +16,7 @@ title: "Reading"
 
     A note on the writing: One cannot read the meandering, hypnotic prose of Proust in just any mood. One needs to take it slow and one needs to let go. It’s as if you are stepping into the sea for the first time; If you hold your ground, the waves will be too much, but if you jump as each wave comes along, you will land softly feeling the lightness. You will want to stay there forever.
 
-*   **The man without qualities** - Robert Musil
+* **The man without qualities** - Robert Musil
     
     Once the novel starts, what one really wants to see (and sees) is the hero at the boundaries of crime and morality in different contexts. And every time he reaches such boundaries, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow suicide and murder though shocking, don’t seem to unmask our (programmed) layers of thoughts, as the tension between two best friends or the questioning of accepted social values.
 
