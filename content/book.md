@@ -8,7 +8,7 @@ title: "Book"
 
 I taught intro courses on graph theory at IISc (in 2024 and 2025). During this time, I was also working on my book - Graphs, Games, Algorithms. In 2020-21, I spent a year teaching Linear Algebra, Graphs and Algorithms at the University of Hyderabad.
 
-{{< bookbox title="Updates:" img="graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
+{{< bookbox title="Updates:" img="https://vineethchintala.com/graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
 free ebook: [Graphs, Games, Algorithms](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view?usp=sharing)
 Paperback available on [Amazon](https://www.amazon.com/dp/B0G7Y588JN)
 
