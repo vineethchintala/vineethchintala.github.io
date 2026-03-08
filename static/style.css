@@ -1,6 +1,6 @@
 /* Color Palette */
 :root {
-    --bg-color: color-mix(in srgb, white 92%, #D4AF37 8%);
+    --bg-color: color-mix(in srgb, white 90%, #D4AF37 10%);
     --container-bg: rgba(255, 255, 255, 0.9);
     --text-color: black;
     --heading-color: black;
