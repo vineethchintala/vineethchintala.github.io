@@ -18,11 +18,11 @@ title: "Reading"
 
 *   **The man without qualities** - Robert Musil
     
-    Once the novel starts, what one really wants to see (and sees) is the hero at the borders of crime and morality in different contexts. And every time he reaches such borders, we wonder how he will react to it. Even more, we wonder how he will DEFINE it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow Suicide and Murder though shocking don’t seem to reach the dizzying boundaries of consciousness, as the tension between best friends or the questioning of accepted social values.
+    Once the novel starts, what one really wants to see (and sees) is the hero at the boundaries of crime and morality in different contexts. And every time he reaches such boundaries, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow suicide and murder though shocking, don’t seem to unmask our (programmed) layers of thoughts, as the tension between two best friends or the questioning of accepted social values.
 
     It’s a book that can be read in small doses. It’s probably more enjoyable that way. Filled with ideas, Musil spends less time on reality and more on contemplating the many possibilities of it. 
 
-    Huge huge ambition for a novel. A thinking novel, with a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
+    Huge ambition for a novel. A thinking novel, with a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
 
 *   **Gateway** - Frederik Pohl
 *   **The Golden Notebook** - Doris Lessing
