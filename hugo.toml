@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://vineethchintala.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Project'
+title = 'Vineeth Chintala'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

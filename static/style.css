@@ -1,0 +1,228 @@
+/* Color Palette: Light Teal and Metallic Gold */
+:root {
+    --bg-color: color-mix(in srgb, white 98%, #c59b27 2%);
+    --container-bg: rgba(255, 255, 255, 0.9);
+    --text-primary: black;
+    --text-secondary: black;
+    --accent-gold: black;
+    --accent-gold-hover: teal;
+    --teal-link: teal;
+}
+
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    line-height: 1.65;
+    color: var(--text-primary);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+/* Centered Container */
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+/* Header and Navigation Tabs */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10vh;
+    /* Optical lift for content below */
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.8em;
+    color: teal;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+h1 a {
+    color: teal;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+h1 a:hover {
+    color: #c59b27;
+    opacity: 1;
+}
+
+.nav-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-tabs a {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    text-decoration: none;
+    color: teal;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+    font-size: 1.1em;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.nav-tabs a:hover {
+    color: #c59b27;
+    transform: translateY(-1px);
+    text-shadow: 0 0 8px rgba(197, 155, 39, 0.3);
+}
+
+/* Typography */
+p {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+h2,
+h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--accent-gold);
+    font-weight: 500;
+    margin-top: 40px;
+    letter-spacing: -0.02em;
+}
+
+a {
+    color: var(--teal-link);
+    text-decoration: none;
+    transition: opacity 0.3s ease, color 0.1s ease;
+}
+
+a:active {
+    color: var(--accent-gold-hover);
+    opacity: 1;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+/* Content Sections */
+section {
+    margin-bottom: 70px;
+}
+
+section h2:first-child,
+section h3:first-child {
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(197, 155, 39, 0.15);
+    margin: -35px 0 35px 0;
+}
+
+.quote {
+    font-style: italic;
+    color: var(--text-secondary);
+    border-left: 1px solid var(--accent-gold);
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+/* Specific Layout Blocks */
+.book-box {
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    padding: 30px;
+    background-color: var(--container-bg);
+    border-radius: 4px;
+}
+
+/* Lists and Lists with Bullets */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+/* Publication and Book Lists with Bullet Points */
+ul.book-list li::before {
+    content: "•";
+    color: var(--accent-gold);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Movie List */
+ol.movie-list {
+    padding-left: 20px;
+}
+
+ol.movie-list li {
+    margin-bottom: 15px;
+}
+
+ol.movie-list li strong {
+    color: var(--accent-gold);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+}
+
+/* Poem Styling (Index specific but included for consistency) */
+.poem {
+    font-style: italic;
+    color: var(--text-secondary);
+    white-space: pre-wrap;
+    border-left: 1px solid var(--accent-gold);
+    padding-left: 25px;
+    font-size: 0.95em;
+    line-height: 1.9;
+}
+
+.poem-note {
+    font-size: 0.8em;
+    color: black;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 0.8em;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Math Styling */
+.mjx-chtml {
+    font-size: 110% !important;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(197, 155, 39, 0.2);
+    margin: 40px 0;
+}
