@@ -13,7 +13,7 @@ title: "Reading"
 {{< desc >}}
 Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing so intimately, and so precisely like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
 
-Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, coded in a meandering, hypnotic prose. 
+Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose. 
 {{< /desc >}}
 
 **The man without qualities** - Robert Musil
@@ -30,7 +30,7 @@ Huge ambition for a novel. A thinking novel, with a big creamy layer of lightnes
 
 In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. In short, Eugene Onegin is never boring! (Check out the James Falen translation.) 
 
-There is nothing like it. I delayed submitting my math PhD thesis so that I can include a poem written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate. 
+The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a poem written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate. 
 {{< /desc >}}
 
 
