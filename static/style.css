@@ -1,18 +1,17 @@
-/* Color Palette: Light Teal and Metallic Gold */
+/* Color Palette */
 :root {
-    --bg-color: color-mix(in srgb, white 98%, #c59b27 2%);
+    --bg-color: color-mix(in srgb, white 98%, #D4AF37 2%);
     --container-bg: rgba(255, 255, 255, 0.9);
-    --text-primary: black;
-    --text-secondary: black;
-    --accent-gold: black;
-    --accent-gold-hover: teal;
-    --teal-link: teal;
+    --text-color: black;
+    --heading-color: black;
+    --link-color: teal;
+    --link-hover: #c59b27;
 }
 
 body {
     font-family: 'Inter', -apple-system, sans-serif;
     line-height: 1.65;
-    color: var(--text-primary);
+    color: var(--text-color);
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
@@ -32,7 +31,6 @@ header {
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 10vh;
-    /* Optical lift for content below */
     flex-wrap: nowrap;
     gap: 20px;
 }
@@ -40,7 +38,7 @@ header {
 h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.8em;
-    color: teal;
+    color: var(--link-color);
     font-weight: 600;
     font-style: normal;
     margin: 0;
@@ -48,14 +46,13 @@ h1 {
 }
 
 h1 a {
-    color: teal;
+    color: var(--link-color);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 h1 a:hover {
-    color: #c59b27;
-    opacity: 1;
+    color: var(--link-hover);
 }
 
 .nav-tabs {
@@ -66,11 +63,15 @@ h1 a:hover {
     gap: 30px;
 }
 
+.nav-tabs li::before {
+    content: none;
+}
+
 .nav-tabs a {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     text-decoration: none;
-    color: teal;
+    color: var(--link-color);
     font-weight: 600;
     text-transform: lowercase;
     letter-spacing: 0.05em;
@@ -80,7 +81,7 @@ h1 a:hover {
 }
 
 .nav-tabs a:hover {
-    color: #c59b27;
+    color: var(--link-hover);
     transform: translateY(-1px);
     text-shadow: 0 0 8px rgba(197, 155, 39, 0.3);
 }
@@ -103,35 +104,24 @@ li {
 h2,
 h3 {
     font-family: 'Space Grotesk', sans-serif;
-    color: var(--accent-gold);
+    color: var(--heading-color);
     font-weight: 500;
     margin-top: 40px;
     letter-spacing: -0.02em;
 }
 
 a {
-    color: var(--teal-link);
+    color: var(--link-color);
     text-decoration: none;
     transition: opacity 0.3s ease, color 0.1s ease;
 }
 
 a:active {
-    color: var(--accent-gold-hover);
-    opacity: 1;
+    color: var(--link-color);
 }
 
 a:hover {
     opacity: 0.8;
-}
-
-/* Content Sections */
-section {
-    margin-bottom: 70px;
-}
-
-section h2:first-child,
-section h3:first-child {
-    margin-top: 0;
 }
 
 /* Horizontal line custom styling */
@@ -141,10 +131,10 @@ hr {
     margin: 40px 0;
 }
 
-.quote {
+blockquote {
     font-style: italic;
-    color: var(--text-secondary);
-    border-left: 1px solid var(--accent-gold);
+    color: var(--text-color);
+    border-left: 1px solid var(--heading-color);
     padding-left: 20px;
     margin-bottom: 40px;
 }
@@ -155,9 +145,28 @@ hr {
     padding: 30px;
     background-color: var(--container-bg);
     border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 60px;
 }
 
-/* Lists and Lists with Bullets */
+.book-box img {
+    width: 25%;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.book-box .book-content {
+    flex: 1;
+}
+
+.book-box h3 {
+    margin-top: 0;
+}
+
+/* Lists */
 ul {
     list-style-type: none;
     padding-left: 0;
@@ -165,41 +174,37 @@ ul {
 
 ul li {
     margin-bottom: 25px;
-    /* Added more space between items */
 }
 
-/* Indent paragraphs inside list items to the right of the title */
 ul li p {
     margin-bottom: 15px;
 }
 
 .container ul li p:not(:first-child) {
     margin-left: 40px;
-    /* Increased for visibility */
     color: #333;
     display: block;
 }
 
-/* Publication and Book Lists with Bullet Points */
-ul.book-list li::before {
+.container ul li::before {
     content: "•";
-    color: var(--accent-gold);
+    color: var(--heading-color);
     display: inline-block;
     width: 1em;
     margin-left: -1em;
 }
 
-/* Movie List */
-ol.movie-list {
+/* Ordered Lists */
+.container ol {
     padding-left: 20px;
 }
 
-ol.movie-list li {
+.container ol li {
     margin-bottom: 15px;
 }
 
-ol.movie-list li strong {
-    color: var(--accent-gold);
+.container ol li strong {
+    color: var(--heading-color);
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
 }
@@ -207,9 +212,9 @@ ol.movie-list li strong {
 /* Poem Styling */
 .poem {
     font-style: italic;
-    color: var(--text-secondary);
+    color: var(--text-color);
     white-space: pre-wrap;
-    border-left: 1px solid var(--accent-gold);
+    border-left: 1px solid var(--heading-color);
     padding-left: 25px;
     font-size: 0.95em;
     line-height: 1.9;
@@ -228,9 +233,4 @@ footer {
     color: black;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
-
-/* Math Styling */
-.mjx-chtml {
-    font-size: 110% !important;
 }
