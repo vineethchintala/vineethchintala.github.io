@@ -10,7 +10,7 @@ A short fun introduction to graphs and algorithms (based on my undergraduate cou
 
 I'm Vineeth, a writer and mathematician. Every few years, I try to explore a new field in depth. From 2016-2019, I worked in Game theory and Behavioural Economics. Prior to that, I did a PhD in Mathematics. I also spent a year as a Fulbright Scholar in 2021-22.
 
-At the end of 2025, I quit academia and have been exploring AI, talking to experts and hosting workshops for companies, etc. I love the energy that comes from collaborating with great teams, so feel free to reach out: **vineethchintala** (at gmail).
+At the end of 2025, I quit academia and have been exploring AI, talking to experts and hosting workshops for companies, etc. I love the energy that comes from collaborating with great teams, so feel free to reach out: **vineethreddy90** (at gmail).
 
 ---
 
