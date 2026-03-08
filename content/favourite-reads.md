@@ -4,7 +4,7 @@ title: "Reading"
 
 ## Great Reading Experiences
 
-> All the forces in the world are not as powerful as an idea whose time has come - Victor Hugo
+> *All the forces in the world are not as powerful as an idea whose time has come* - Victor Hugo
 
 ### Fiction
 
@@ -14,11 +14,11 @@ title: "Reading"
 
     Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, how it formed all the way to the forgetting.
 
-    A note on writing: One cannot read the long winding hypnotic prose of Proust in just any mood, one needs to take it slow and one needs to let go. It’s as if you are stepping into the sea for the first time; If you hold your ground, the waves will be too much, but if you jump as each wave comes along, you will land softly feeling the lightness. You will want to stay there forever.
+    A note on the writing: One cannot read the meandering, hypnotic prose of Proust in just any mood. One needs to take it slow and one needs to let go. It’s as if you are stepping into the sea for the first time; If you hold your ground, the waves will be too much, but if you jump as each wave comes along, you will land softly feeling the lightness. You will want to stay there forever.
 
 *   **The man without qualities** - Robert Musil
     
-    Once the novel starts, what one really wants to see (and sees) is the hero at the borders of crime and morality in different contexts. And every time he reaches such borders, we wonder how he will react to it. Even more, we wonder how he will DEFINE it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analysed. Somehow Suicide and Murder though shocking don’t seem to reach the dizzying boundaries of consciousness, as the tension between best friends or the questioning of accepted social values.
+    Once the novel starts, what one really wants to see (and sees) is the hero at the borders of crime and morality in different contexts. And every time he reaches such borders, we wonder how he will react to it. Even more, we wonder how he will DEFINE it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow Suicide and Murder though shocking don’t seem to reach the dizzying boundaries of consciousness, as the tension between best friends or the questioning of accepted social values.
 
     It’s a book that can be read in small doses. It’s probably more enjoyable that way. Filled with ideas, Musil spends less time on reality and more on contemplating the many possibilities of it. 
 
