@@ -134,10 +134,11 @@ section h3:first-child {
     margin-top: 0;
 }
 
+/* Horizontal line custom styling */
 hr {
     border: 0;
-    border-top: 1px solid rgba(197, 155, 39, 0.15);
-    margin: -35px 0 35px 0;
+    border-top: 1px solid rgba(197, 155, 39, 0.2);
+    margin: 40px 0;
 }
 
 .quote {
@@ -163,15 +164,21 @@ ul {
 }
 
 ul li {
+    margin-bottom: 25px;
+    /* Added more space between items */
+}
+
+/* Indent paragraphs inside list items to the right of the title */
+ul li p {
     margin-bottom: 15px;
 }
 
-ul li p {
-    margin-bottom: 10px;
-}
-
 ul li p:not(:first-child) {
-    margin-left: 25px;
+    margin-left: 30px;
+    /* Strong indentation for descriptive text */
+    color: #444;
+    /* Slightly softer color for description */
+    font-size: 0.95em;
 }
 
 /* Publication and Book Lists with Bullet Points */
@@ -198,7 +205,7 @@ ol.movie-list li strong {
     font-weight: 500;
 }
 
-/* Poem Styling (Index specific but included for consistency) */
+/* Poem Styling */
 .poem {
     font-style: italic;
     color: var(--text-secondary);
@@ -227,10 +234,4 @@ footer {
 /* Math Styling */
 .mjx-chtml {
     font-size: 110% !important;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid rgba(197, 155, 39, 0.2);
-    margin: 40px 0;
 }
