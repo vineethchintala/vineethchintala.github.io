@@ -28,7 +28,7 @@ Huge ambition for a novel. A thinking novel, with a big creamy layer of lightnes
 **Eugene Onegin** - Alexander Pushkin 
 {{< desc >}}
 
-In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make a clever transition that other writers use pages to develop. In short, Eugene Onegin is never boring!
+In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. In short, Eugene Onegin is never boring!
 
 Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate in the same rhyme pattern. (Check out the James Falen translation.)
 {{< /desc >}}
