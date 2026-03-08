@@ -19,7 +19,7 @@ Many writers are good at capturing a particular emotion, a specific moment.  Pro
 **The man without qualities** - Robert Musil
 
 {{< desc >}}
-Once the novel starts, what one really wants to see (and sees) is the hero at the boundaries of crime and morality in different contexts. And every time he reaches such boundaries, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to reach the same dizzying layers of our minds, as the tension between two best friends or the casual questioning of accepted social values. 
+Once the novel starts, what one really wants to see (and sees) is the hero at the boundaries of crime and morality in different contexts. And every time he reaches such boundaries, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to reach the same dizzying levels of our minds, as the tension between two best friends or the casual questioning of accepted social values. 
 
 Huge ambition for a novel. A thinking novel, with a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
 {{< /desc >}}
