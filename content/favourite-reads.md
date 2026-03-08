@@ -10,7 +10,7 @@ title: "Reading"
 
 *   **In Search of lost time** - Marcel Proust
     
-    Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing so precisely, so poetically, and so scientifically like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
+    Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing intimately, and so precisely like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
 
     Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, how it formed all the way to the forgetting.
 
