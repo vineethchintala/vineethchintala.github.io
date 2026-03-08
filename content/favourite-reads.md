@@ -26,7 +26,7 @@ Huge ambition for a novel. A thinking novel, with a big creamy layer of lightnes
 
 
 **Eugene Onegin** - Alexander Pushkin 
-{{< /desc >}}
+{{< desc >}}
 
 In my world, this is the best type of novel - short, deep and playful. The narrator’s relationship to the reader (if that makes sense) -  the close distance between them, and the lightness - is probably unmatched.
 
