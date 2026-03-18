@@ -28,38 +28,38 @@ This is intended to be a short fun book covering graph theory and algorithms, de
 
 There are a lot of books and lecture notes out there, each having their own style and content - I recommend checking out and finding what suits your interests.
 
-1.  **Basic to Intermediate, highly readable (where some chapters cover graph theory):**
-    Invitation to discrete mathematics - Matousek, Nesetril
-    Algorithms illuminated - Roughgarden
-    Algorithm design - Tardos, Kleinberg
-    The discrete mathematical charms of Paul Erdos - Vasek Chvatal
+1.  **Basic to Intermediate, highly readable (where some chapters cover graph theory):**<br>
+    Invitation to discrete mathematics - Matousek, Nesetril<br>
+    Algorithms illuminated - Roughgarden<br>
+    Algorithm design - Tardos, Kleinberg<br>
+    The discrete mathematical charms of Paul Erdos - Vasek Chvatal<br>
     Some other popular textbooks are by Douglas West, Bondy and Murty, Harary, Bóna
 
-2.  **Intermediate to Advanced:**
-    Graph theory, Diestel
-    Spectral and algebraic graph theory, Spielman
+2.  **Intermediate to Advanced:**<br>
+    Graph theory, Diestel<br>
+    Spectral and algebraic graph theory, Spielman<br>
     Also check out the following talk: Miracles in Algebraic graph theory by Spielman [https://youtu.be/CDMQR422LGM](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
 
-3.  **Specialized topics:**
-    Two sided matching - Roth, Sotomayer
+3.  **Specialized topics:**<br>
+    Two sided matching - Roth, Sotomayer<br>
     The game of cops and robbers on Graphs - Bonato, Nowakowski
 
-4.  **Advanced:**
-    The Probabilistic method - Alon, Spencer (The book for the probabilistic method)
-    Erdos on Graphs - Chung, Graham (contains many open problems)
+4.  **Advanced:**<br>
+    The Probabilistic method - Alon, Spencer (The book for the probabilistic method)<br>
+    Erdos on Graphs - Chung, Graham (contains many open problems)<br>
     Enumerative Combinatorics - Richard Stanley
 
-5.  **Some resources for puzzles/gems:**
-    Proofs from the Book - Aigner, Ziegler
-    33 miniatures - Matousek
-    Algebraic combinatorics - Stanley (there is a section called Mathematical gems)
-    Mathematical Puzzles - Peter Winkler
+5.  **Some resources for puzzles/gems:**<br>
+    Proofs from the Book - Aigner, Ziegler<br>
+    33 miniatures - Matousek<br>
+    Algebraic combinatorics - Stanley (there is a section called Mathematical gems)<br>
+    Mathematical Puzzles - Peter Winkler<br>
     Also recommend checking out people who wrote widely (and well) on recreational mathematics - Henry Dudeney, Sam Lloyd, Martin Gardener, Ross Honsberger, Peter Winkler
 
-6.  **A list of famous algorithms:**
+6.  **A list of famous algorithms:**<br>
     [https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
 
-7.  **Science Writing:**
-    Here are a couple of engaging talks on science writing that I found extremely useful. Both cover different ground, so check them both sometime.
-    Larry McEnerny: [https://youtu.be/vtIzMaLkCaM](https://youtu.be/vtIzMaLkCaM?si=Wr9pdsexvdFepISi)
+7.  **Science Writing:**<br>
+    Here are a couple of engaging talks on science writing that I found extremely useful. Both cover different ground, so check them both sometime.<br>
+    Larry McEnerny: [https://youtu.be/vtIzMaLkCaM](https://youtu.be/vtIzMaLkCaM?si=Wr9pdsexvdFepISi)<br>
     Judy Swan: [https://youtu.be/jLPCdDp_LE0](https://youtu.be/jLPCdDp_LE0?si=E6-YTx8FYEY7TdJC)

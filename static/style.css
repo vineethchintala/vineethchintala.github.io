@@ -17,7 +17,7 @@ body {
     background-color: var(--bg-color);
     margin: 0;
     padding: 0;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Centered Container */
@@ -38,7 +38,6 @@ header {
 }
 
 h1 {
-    font-family: var(--font-primary);
     font-size: 1.8em;
     color: var(--link-color);
     font-weight: 700;
@@ -70,7 +69,6 @@ h1 a:hover {
 }
 
 .nav-tabs a {
-    font-family: var(--font-primary);
     font-style: italic;
     text-decoration: none;
     color: var(--link-color);
@@ -96,7 +94,7 @@ p {
 
 b,
 strong {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 li {
@@ -114,7 +112,7 @@ h2 {
 
 h3 {
     color: var(--heading-color);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.15em;
     margin-top: 32px;
     margin-bottom: 12px;
@@ -215,7 +213,7 @@ ul li p {
 }
 
 .container ol li strong {
-    font-weight: 600;
+    font-weight: 700;
 }
 
 /* Poem */
