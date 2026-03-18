@@ -4,7 +4,8 @@ title: "Reading"
 
 ## Great Reading Experiences
 
-> *All the forces in the world are not as powerful as an idea whose time has come* - Victor Hugo
+> *All the forces in the world are not as powerful as an idea whose time has come* \
+- Victor Hugo
 
 ### Fiction
 
