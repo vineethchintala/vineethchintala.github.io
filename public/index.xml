@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vineeth Chintala</title>
-    <link>https://vineethchintala.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Vineeth Chintala</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://vineethchintala.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book</title>
-      <link>https://vineethchintala.com/book/</link>
+      <link>http://localhost:1313/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vineethchintala.com/book/</guid>
+      <guid>http://localhost:1313/book/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;intro-to-graph-theory&#34;&gt;Intro to Graph Theory&lt;/h2&gt;&#xA;&lt;p&gt;I taught intro courses on graph theory at IISc (in 2024 and 2025). During this time, I was also working on my book - Graphs, Games, Algorithms. In 2020-21, I spent a year teaching Linear Algebra, Graphs and Algorithms at the University of Hyderabad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cinema</title>
-      <link>https://vineethchintala.com/movies/</link>
+      <link>http://localhost:1313/movies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vineethchintala.com/movies/</guid>
+      <guid>http://localhost:1313/movies/</guid>
       <description>&lt;h2 id=&#34;perfect-endings-in-cinema&#34;&gt;Perfect Endings in Cinema&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Once in a while a movie elevates itself with a perfect finish, with a final unforgettable impression. It can be the difference between going home satisfied and still remembering it years later. The difference between passing joy and lifelong love.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;(The list below doesn&amp;rsquo;t include one of my favorite films from the past decade - Portrait of a lady on fire. Sometimes the storytelling is so exquisite that the ending doesn&amp;rsquo;t need to do much. The magic has already been transferred.)&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading</title>
-      <link>https://vineethchintala.com/favourite-reads/</link>
+      <link>http://localhost:1313/favourite-reads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vineethchintala.com/favourite-reads/</guid>
+      <guid>http://localhost:1313/favourite-reads/</guid>
       <description>&lt;h2 id=&#34;great-reading-experiences&#34;&gt;Great Reading Experiences&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;All the forces in the world are not as powerful as an idea whose time has come&lt;/em&gt; - Victor Hugo&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;fiction&#34;&gt;Fiction&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;In Search of lost time&lt;/strong&gt; - Marcel Proust&lt;/p&gt;&#xA;&lt;div class=&#34;book-desc&#34;&gt;&#xA;    &lt;p&gt;Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing so intimately, and so precisely like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Research</title>
-      <link>https://vineethchintala.com/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://vineethchintala.com/research/</guid>
+      <guid>http://localhost:1313/research/</guid>
       <description>&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The secret to doing good research is to always be a little underemployed. You waste years by not being able to waste hours - Amos Tversky&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;(If you have time for only one paper, look at Two Lives.)&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;a-matrix-trilogy&#34;&gt;A Matrix Trilogy&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub&#34;&gt;Two lives: Compositions of Unimodular rows&lt;/a&gt;, Advances in Mathematics 389 (2021), 107917.    &lt;a href=&#34;https://arxiv.org/pdf/2101.03862.pdf&#34;&gt;[arXiv]&lt;/a&gt;&#xA;&lt;em&gt;When multiple research areas evolve around the same object, one expects that there is a connection between them. The more distinct the methods are, the more fruitful this connection will be. In this paper, we will explore this double life for unimodular rows.&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ems.press/journals/dm/articles/8965591&#34;&gt;Embeddings of Quadratic Spaces&lt;/a&gt;, Documenta Math. 23 (2018) 1621 - 1634&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ems.press/journals/dm/articles/8965428&#34;&gt;On Suslin matrices and their connection to Spin Groups&lt;/a&gt;, Documenta Math. 20 (2015) 531 - 550.    &lt;a href=&#34;https://arxiv.org/pdf/2009.12107.pdf&#34;&gt;[arXiv]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;noncommutative-rings&#34;&gt;Noncommutative rings&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Centrality and partition of idempotents &lt;a href=&#34;https://arxiv.org/abs/2311.08404&#34;&gt;[preprint]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;A partition of finite rings makes lifting possible &lt;a href=&#34;https://arxiv.org/abs/2009.12508&#34;&gt;[preprint]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Sorry, the nilpotents are in the center &lt;a href=&#34;https://arxiv.org/abs/1805.11451&#34;&gt;[preprint]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.worldscientific.com/doi/10.1142/S0219498812500892&#34;&gt;Maximum number of solutions of x&lt;sup&gt;q&lt;/sup&gt; = x in a finite noncommutative algebra&lt;/a&gt;, Journal Algebra and its applications, Volume 11, Number 5, 2012.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;microeconomics&#34;&gt;Microeconomics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Two values are sufficient for choice consistency &lt;a href=&#34;https://osf.io/preprints/socarxiv/gf6wq/&#34;&gt;[preprint]&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

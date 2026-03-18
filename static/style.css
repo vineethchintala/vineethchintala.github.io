@@ -1,31 +1,37 @@
-/* 1. Global Reset for layout stability */
+/* 1. The Artist's Reset */
 *,
 *::before,
 *::after {
     box-sizing: border-box;
 }
 
-/* Design Tokens */
+/* Design Tokens — Warm, Ink, and Gold Leaf */
 :root {
-    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --bg-color: color-mix(in srgb, white 98%, #D4AF37 2%);
-    --container-bg: rgba(255, 255, 255, 0.9);
-    --text-color: #1a1a1a;
-    --heading-color: #1a1a1a;
-    --secondary-text: #444;
-    --link-color: #2a7a6f;
-    --link-hover: #c59b27;
-    --transition: all 0.3s ease;
+    /* One Master Font: Literary, timeless, and human */
+    --font-main: 'et-book', 'Georgia', serif;
+
+    /* The Palette */
+    --teal-ink: #2a7a6f;
+    --gold-leaf: #c59b27;
+    --paper-warmth: color-mix(in srgb, white 97%, #c59b27 3%);
+    --ink-black: #1c1c1c;
+    --soft-shadow: rgba(42, 122, 111, 0.05);
+
+    /* Transitions: Slow and graceful, like a curtain closing */
+    --vibe-shift: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
-    font-family: var(--font-primary);
-    line-height: 1.65;
-    color: var(--text-color);
-    background-color: var(--bg-color);
+    font-family: var(--font-main);
+    font-size: 1rem;
+
+    line-height: 1.7;
+    color: var(--ink-black);
+    background-color: var(--paper-warmth);
     margin: 0;
     padding: 0;
     font-weight: 400;
+
     -webkit-font-smoothing: antialiased;
     /* Smoother text rendering */
 }
@@ -43,26 +49,23 @@ header {
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: clamp(40px, 6vh, 80px);
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    /* Forces them to stay on one line */
     gap: 20px;
 }
 
 h1 {
-    font-size: 1.8em;
-    color: var(--link-color);
-    font-weight: 500;
+    font-size: 1.5em;
+    color: var(--teal-ink);
+    font-weight: 400;
     margin: 0;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.04em;
 }
 
 h1 a {
     color: inherit;
-    text-decoration: none;
-    transition: var(--transition);
-}
-
-h1 a:hover {
-    color: var(--link-hover);
+    font-weight: inherit;
+    /* Prevents global bold link from applying */
 }
 
 .nav-tabs {
@@ -70,23 +73,18 @@ h1 a:hover {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .nav-tabs a {
-    font-style: italic;
-    text-decoration: none;
-    color: var(--link-color);
     font-weight: bold;
     text-transform: lowercase;
-    letter-spacing: 0.05em;
-    font-size: 1.1em;
-    transition: var(--transition);
+    letter-spacing: 0.01em;
+    font-size: 1em;
     display: inline-block;
 }
 
 .nav-tabs a:hover {
-    color: var(--link-hover);
     transform: translateY(-1px);
 }
 
@@ -94,36 +92,54 @@ h1 a:hover {
 p {
     margin-top: 0;
     margin-bottom: 1.25rem;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-lines: 2;
+    hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
+}
+
+li {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphenate-limit-lines: 2;
+    -webkit-hyphenate-limit-lines: 2;
+    hyphenate-limit-chars: 6 3 3;
+    -webkit-hyphenate-limit-before: 3;
+    -webkit-hyphenate-limit-after: 3;
 }
 
 h2,
 h3 {
-    color: var(--heading-color);
-    font-weight: 700;
-    letter-spacing: -0.01em;
+    font-size: 1.2em;
+    color: var(--ink-black);
+    font-weight: 600;
+    letter-spacing: 0em;
 }
 
 h2 {
-    font-size: 1.5em;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 h3 {
-    font-size: 1.15em;
     margin-top: 2rem;
     margin-bottom: 0.75rem;
 }
 
 a {
-    color: var(--link-color);
+    color: var(--teal-ink);
     font-weight: bold;
     text-decoration: none;
-    transition: var(--transition);
+    transition: var(--vibe-shift);
 }
 
 a:hover {
-    color: var(--link-hover);
+    color: var(--gold-leaf);
 }
 
 /* Horizontal line */
@@ -135,18 +151,21 @@ hr {
 
 blockquote {
     font-style: italic;
-    border-left: 3px solid var(--link-hover);
+    border-left: 3px solid var(--gold-leaf);
     padding-left: 1.5rem;
     margin: 2rem 0;
-    color: var(--secondary-text);
+    color: var(--ink-black);
+    opacity: 0.8;
 }
 
 /* Book Box */
 .book-box {
-    border: 1px solid rgba(212, 175, 55, 0.4);
-    padding: 2rem;
-    background-color: var(--container-bg);
-    border-radius: 8px;
+    border: none;
+    /* Removed gold border */
+    padding: 0;
+    /* Removing padding keeps image flush with normal text */
+    background-color: transparent;
+    /* Same background color as the page */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -160,7 +179,7 @@ blockquote {
     /* Ensures image doesn't get too huge */
     height: auto;
     border-radius: 4px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px var(--soft-shadow);
 }
 
 .book-box .book-content {
@@ -192,9 +211,9 @@ blockquote {
 .poem {
     font-style: italic;
     white-space: pre-wrap;
-    border-left: 2px solid var(--link-hover);
+    border-left: 2px solid var(--gold-leaf);
     padding-left: 1.5rem;
-    font-size: 0.95em;
+    font-size: 1em;
     line-height: 1.9;
     margin: 2rem 0;
 }
@@ -203,19 +222,29 @@ footer {
     text-align: center;
     margin-top: 6rem;
     padding-bottom: 3rem;
-    font-size: 0.85em;
-    color: var(--secondary-text);
-    opacity: 0.8;
+    font-size: 0.80em;
+    color: var(--ink-black);
+    opacity: 0.6;
 }
 
 /* Responsive Perfection */
 @media (max-width: 650px) {
     header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 1rem;
+        flex-direction: row;
+        align-items: baseline;
+        text-align: left;
+        gap: 10px;
     }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    .nav-tabs {
+        gap: 10px;
+    }
+
+
 
     .book-box {
         flex-direction: column;

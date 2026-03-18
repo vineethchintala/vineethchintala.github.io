@@ -3,7 +3,7 @@ title: "Vineeth Chintala"
 ---
 
 {{< bookbox title="Graphs, Games, Algorithms" img="/graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
-A short fun introduction to graphs and algorithms (based on my undergraduate courses)
+A short fun introduction to graphs and algorithms.
 
 [Free eBook](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
 {{< /bookbox >}}
