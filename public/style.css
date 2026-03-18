@@ -1,15 +1,17 @@
-/* Color Palette */
+/* Design Tokens — change font here, one place only */
 :root {
+    --font-primary: 'Inter', -apple-system, sans-serif;
     --bg-color: color-mix(in srgb, white 98%, #D4AF37 2%);
     --container-bg: rgba(255, 255, 255, 0.9);
-    --text-color: black;
-    --heading-color: black;
-    --link-color: teal;
+    --text-color: #1a1a1a;
+    --heading-color: #1a1a1a;
+    --secondary-text: #444;
+    --link-color: #2a7a6f;
     --link-hover: #c59b27;
 }
 
 body {
-    font-family: 'Inter', -apple-system, sans-serif;
+    font-family: var(--font-primary);
     line-height: 1.65;
     color: var(--text-color);
     background-color: var(--bg-color);
@@ -30,16 +32,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 10vh;
+    margin-bottom: clamp(40px, 6vh, 80px);
     flex-wrap: nowrap;
     gap: 20px;
 }
 
 h1 {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-primary);
     font-size: 1.8em;
     color: var(--link-color);
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     margin: 0;
     letter-spacing: -0.02em;
@@ -68,7 +70,7 @@ h1 a:hover {
 }
 
 .nav-tabs a {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: var(--font-primary);
     font-style: italic;
     text-decoration: none;
     color: var(--link-color);
@@ -89,30 +91,40 @@ h1 a:hover {
 /* Typography */
 p {
     margin-top: 0;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 b,
 strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 li {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
-h2,
+h2 {
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    letter-spacing: -0.02em;
+}
+
 h3 {
     color: var(--heading-color);
     font-weight: 600;
-    margin-top: 40px;
-    letter-spacing: -0.02em;
+    font-size: 1.15em;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    letter-spacing: -0.01em;
 }
 
 a {
     color: var(--link-color);
     text-decoration: none;
-    transition: opacity 0.3s ease, color 0.1s ease;
+    transition: color 0.3s ease;
 }
 
 a:active {
@@ -120,29 +132,29 @@ a:active {
 }
 
 a:hover {
-    opacity: 0.8;
+    color: var(--link-hover);
 }
 
 /* Horizontal line */
 hr {
     border: 0;
-    border-top: 1px solid rgba(197, 155, 39, 0.2);
-    margin: 40px 0;
+    border-top: 1px solid rgba(197, 155, 39, 0.35);
+    margin: 48px 0;
 }
 
 blockquote {
     font-style: italic;
     color: var(--text-color);
-    border-left: 1px solid var(--heading-color);
+    border-left: 2px solid var(--link-hover);
     padding-left: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
 }
 
 /* Book Box */
 .book-box {
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: 1px solid rgba(212, 175, 55, 0.7);
     padding: 30px;
-    background-color: var(--container-bg);
+    background-color: var(--bg-color);
     border-radius: 4px;
     display: flex;
     flex-direction: row;
@@ -172,11 +184,11 @@ ul {
 }
 
 ul li {
-    margin-bottom: 25px;
+    margin-bottom: 24px;
 }
 
 ul li p {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .container ul:not(.nav-tabs) li::before {
@@ -189,7 +201,7 @@ ul li p {
 
 .container ul li p:not(:first-child) {
     margin-left: 40px;
-    color: #333;
+    color: var(--secondary-text);
     display: block;
 }
 
@@ -199,11 +211,11 @@ ul li p {
 }
 
 .container ol li {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .container ol li strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Poem */
@@ -211,30 +223,29 @@ ul li p {
     font-style: italic;
     color: var(--text-color);
     white-space: pre-wrap;
-    border-left: 1px solid var(--heading-color);
+    border-left: 2px solid var(--link-hover);
     padding-left: 25px;
     font-size: 0.95em;
     line-height: 1.9;
 }
 
 .poem-note {
-    font-size: 0.8em;
-    color: black;
-    margin-top: 15px;
+    font-size: 0.85em;
+    color: var(--secondary-text);
+    margin-top: 16px;
 }
 
 footer {
     text-align: center;
-    margin-top: 100px;
-    font-size: 0.8em;
-    color: black;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    margin-top: 96px;
+    font-size: 0.85em;
+    color: var(--secondary-text);
+    letter-spacing: 0.5px;
 }
 
 /* Book Description Blocks */
 .book-desc {
     margin-left: 30px;
-    margin-bottom: 35px;
-    color: #333;
+    margin-bottom: 32px;
+    color: var(--secondary-text);
 }
