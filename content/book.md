@@ -9,17 +9,16 @@ title: "Book"
 I taught intro courses on graph theory at IISc (in 2024 and 2025). During this time, I was also working on my book - Graphs, Games, Algorithms. In 2020-21, I spent a year teaching Linear Algebra, Graphs and Algorithms at the University of Hyderabad.
 
 {{< bookbox title="Updates:" img="/graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
-free ebook: [Graphs, Games, Algorithms](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view?usp=sharing)
-Paperback available on [Amazon](https://www.amazon.com/dp/B0G7Y588JN)
+[Free eBook](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
 
-Description: Some of the special chapters are called "gems from grad school". These are beautiful results discovered by people while they were graduate students. Maybe one of these stories will inspire you too. Who knows where the next big idea will come from!
+Some of the special chapters are called "gems from grad school". These are beautiful results discovered by people while they were graduate students. Maybe one of these stories will inspire you too. Who knows where the next big idea will come from!
 
 The book is extremely modular so read the chapters that appeal to you first. The book has four parts:
 
-> *   **Better Way:** uses puzzles to introduce core principles
-> *   **Way Better:** covers classic algorithms
-> *   **The Unreasonable Power of Linear Algebra:** showcases algebraic techniques
-> *   **Senses of a Graph:** surveys major themes
+>    **Better Way:** uses puzzles to introduce core principles
+>    **Way Better:** covers classic algorithms
+>    **The Unreasonable Power of Linear Algebra:** showcases algebraic techniques
+>    **Senses of a Graph:** surveys major themes
 
 This is intended to be a short fun book covering graph theory and algorithms, designed to be useful irrespective of your major. Feel free to send me feedback.
 {{< /bookbox >}}

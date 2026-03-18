@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/book/</loc>
+    <loc>https://vineethchintala.com/book/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://vineethchintala.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/movies/</loc>
+    <loc>https://vineethchintala.com/movies/</loc>
   </url><url>
-    <loc>http://localhost:1313/favourite-reads/</loc>
+    <loc>https://vineethchintala.com/favourite-reads/</loc>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>https://vineethchintala.com/research/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://vineethchintala.com/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://vineethchintala.com/</loc>
   </url>
 </urlset>
