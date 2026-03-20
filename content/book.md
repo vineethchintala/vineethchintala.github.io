@@ -2,7 +2,6 @@
 title: "Book"
 ---
 
-> Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.
 
 ## Intro to Graph Theory
 
