@@ -26,7 +26,7 @@ title: "Cinema"
 
 8.  **Before Sunset:** Small is beautiful, mood is everything. This is the soul of the Before trilogy.
 
-9.  **Rock n Rolla:** Stylish. Keeps you craving for a sequel, without any cheap cliffhangers.
+9.  **RocknRolla:** Stylish. Keeps you craving for a sequel, without any cheap cliffhangers.
 
 10. **Lost in Translation:** A whisper, a kiss and a goodbye.
 
