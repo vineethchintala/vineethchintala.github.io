@@ -30,7 +30,7 @@ title: "Cinema"
 
 10. **Lost in Translation:** A whisper, a kiss and a goodbye.
 
-11. **The lives of others:** When words might not be sufficient, but movies are... It is always satisfying to see an honest payback, whether it's revenge or gratitude.
+11. **The Lives of Others:** When words might not be sufficient, but movies are... It is always satisfying to see an honest payback, whether it's revenge or gratitude.
 
 12. **Joint Security Area:** How in a single final shot, we feel the full weight of the movie!
 
