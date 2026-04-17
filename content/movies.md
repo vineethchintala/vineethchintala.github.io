@@ -6,7 +6,7 @@ title: "Cinema"
 
 > Once in a while a movie elevates itself with a perfect finish, with a final unforgettable impression. It can be the difference between going home satisfied and still remembering it years later. The difference between passing joy and lifelong love.
 
-*(The list below doesn't include one of my favorite films from the past decade - Portrait of a lady on fire. Sometimes the storytelling is so exquisite that the ending doesn't need to do much. The magic has already been transferred.)*
+*(The list below doesn't include my favorite film from the past decade - Portrait of a Lady on Fire. Sometimes the storytelling is so exquisite that the ending doesn't need to do much. The magic has already been transferred.)*
 
 **Rules:** In no particular order. With few words and No spoilers!
 
