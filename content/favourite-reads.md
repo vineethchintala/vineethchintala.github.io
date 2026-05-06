@@ -11,9 +11,10 @@ title: "Reading"
 **In Search of lost time** - Marcel Proust
 
 {{< desc >}}
-Where Proust excels, perhaps more than any other writer I know, is in the intensity of the narrative focus. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
-
 Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose. 
+
+Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
+
 {{< /desc >}}
 
 **The man without qualities** - Robert Musil
@@ -21,7 +22,7 @@ Many writers are good at capturing a particular emotion, a specific moment.  Pro
 {{< desc >}}
 The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values. 
 
-A thinking novel, baked with huge ambition and a big creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
+A thinking novel, baked with huge ambition and creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
 {{< /desc >}}
 
 
