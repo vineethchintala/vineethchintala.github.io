@@ -29,7 +29,7 @@ A thinking novel, baked with huge ambition and creamy layer of lightness. Musil 
 **Eugene Onegin** - Alexander Pushkin 
 {{< desc >}}
 
-In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. In short, Eugene Onegin is never boring! (Check out the James Falen translation.) 
+In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.) 
 
 The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate. 
 {{< /desc >}}
