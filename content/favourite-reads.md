@@ -10,7 +10,7 @@ title: "Reading"
 
 ### Fiction
 
-#### In Search of Lost Time,
+#### In Search of Lost Time
 *Marcel Proust*
 
 Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
@@ -45,16 +45,16 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 
 ### Nonfiction
 
-#### Repeat after me
+#### Repeat After Me
 *David Sedaris*
 
-#### Hitchcock-Truffaut interviews
+#### Hitchcock-Truffaut Interviews
 *François Truffaut*
 
-#### Far from the tree
+#### Far From the Tree
 *Andrew Solomon*
 
-#### Consider this
+#### Consider This
 *Chuck Palahniuk*
 
 #### The Power Broker
@@ -63,8 +63,8 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### The Undoing Project
 *Michael Lewis*
 
-#### Death and life of great American cities
+#### Death and Life of Great American Cities
 *Jane Jacobs*
 
-#### The sensual Quadratic Form
+#### The Sensual Quadratic Form
 *John Conway*
