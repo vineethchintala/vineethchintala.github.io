@@ -36,6 +36,55 @@
 <blockquote>
 <p>Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.</p>
 </blockquote>
+<div class="reads-tabs-container">
+    <div class="reads-tabs">
+        <button class="reads-tab active" data-target="fiction">FICTION</button>
+        <span class="reads-tab-divider">/</span>
+        <button class="reads-tab" data-target="nonfiction">NON-FICTION</button>
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const tabs = document.querySelectorAll('.reads-tab');
+    const sections = document.querySelectorAll('.reading-grid');
+
+    function applyFilter(target) {
+        sections.forEach(sec => {
+            const category = sec.querySelector('.sticky-category');
+            if (category) {
+                const catText = category.textContent.trim().toLowerCase();
+                if (target === 'fiction') {
+                    if (catText.includes('fiction') && !catText.includes('non')) {
+                        sec.style.display = 'grid';
+                    } else {
+                        sec.style.display = 'none';
+                    }
+                } else if (target === 'nonfiction') {
+                    if (catText.includes('non')) {
+                        sec.style.display = 'grid';
+                    } else {
+                        sec.style.display = 'none';
+                    }
+                }
+            }
+        });
+    }
+
+    
+    applyFilter('fiction');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            tabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            const target = this.getAttribute('data-target');
+            applyFilter(target);
+        });
+    });
+});
+</script>
+
 <div class="reading-grid">
     <div class="reading-sidebar">
         <span class="sticky-category">Fiction</span>

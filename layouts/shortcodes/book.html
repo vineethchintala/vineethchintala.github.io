@@ -5,7 +5,7 @@
         by {{ .Get "author" }}
     </div>
     {{ end }}
-    {{ if .Inner }}
+    {{ if and .Inner (ne (trim .Inner " \n\r\t") "") }}
     <div class="book-blurb">
         {{ .Inner | markdownify }}
     </div>
