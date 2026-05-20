@@ -6,7 +6,7 @@ title: "Library"
 
 > Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.
 
-Before I got my first laptop, I was lucky to spend two years of my life as a student librarian. Those two years of college life changed my reading habits. Every city I visit, I might skip the museums but never miss the bookstores. There is a joy in discovering an unknown book that is hard to quantify. I'll keep adding to this page.
+Before I got my first laptop, I was lucky to spend two years of my life as a student librarian. Those two years of college life changed my reading habits. Every city I visit, I might skip the museums but never miss the bookstores. There is a joy in discovering an unknown book that is hard to quantify. I plan to update this page every few months.
 
 {{< reads-tabs >}}
 
