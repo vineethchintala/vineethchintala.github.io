@@ -386,48 +386,43 @@ footer {
 }
 
 /* Book Entry Styling (Typographic Hierarchy) */
-.book-entry {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-
-.book-title {
+.reading-content h4 {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
     font-size: 1.5rem;
-    /* Elegant, large Serif */
     font-weight: 600;
     line-height: 1.25;
     color: var(--ink-black);
     margin: 0;
+    margin-top: 3.5rem;
     letter-spacing: -0.01em;
 }
 
-.book-meta {
+.reading-content h4:first-child {
+    margin-top: 0;
+}
+
+.reading-content h4 + p {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
     font-size: 0.95rem;
     font-style: italic;
-    /* subtle, italicized author */
     color: var(--ink-black);
     opacity: 0.7;
-    margin-bottom: 0.15rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
 }
 
-.book-blurb {
+.reading-content p {
     font-size: 0.95rem;
     line-height: 1.7;
     text-align: justify;
     max-width: 60ch;
-    /* narrow line-width (max 60 chars) for maximum readability */
     color: var(--ink-black);
     opacity: 0.9;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
 }
 
-.book-blurb p {
-    margin-bottom: 1rem;
-}
-
-.book-blurb p:last-child {
+.reading-content p:last-child {
     margin-bottom: 0;
 }
 
