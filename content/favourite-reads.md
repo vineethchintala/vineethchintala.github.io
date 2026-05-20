@@ -10,13 +10,14 @@ title: "Reading"
 
 ### Fiction
 
-#### In Search of lost time, *Marcel Proust*
+#### In Search of Lost Time,
+*Marcel Proust*
 
 Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
 
 Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
 
-#### The man without qualities
+#### The Man Without Qualities
 *Robert Musil*
 
 The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values.
@@ -36,12 +37,10 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Exhalation
 *Ted Chiang*
 
-### 19th-century Russian literature, in particular:
+#### All the Names
+*José Saramago*
 
-#### The shot
-*Alexander Pushkin*
-
-#### Sketches from a hunter's album
+#### Sketches from a Hunter's Album
 *Ivan Turgenev*
 
 ### Nonfiction
@@ -50,6 +49,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 *David Sedaris*
 
 #### Hitchcock-Truffaut interviews
+*François Truffaut*
 
 #### Far from the tree
 *Andrew Solomon*
