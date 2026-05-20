@@ -6,7 +6,7 @@ title: "Cinema"
 
 > Once in a while a movie elevates itself with a perfect finish, with a final unforgettable impression. It can be the difference between going home satisfied and still remembering it years later. The difference between passing joy and lifelong love.
 
-{\center **Rules:** In no particular order. With few words and No spoilers!}
+**Rules:** In no particular order. With few words and No spoilers!
 
 {{< movie num="01" title="Chungking Express" year="1994" >}}
 Shows how effective, and playful, symmetry can be in storytelling. After all, nothing makes a relationship look more convincing than me becoming like you and you becoming like me.
