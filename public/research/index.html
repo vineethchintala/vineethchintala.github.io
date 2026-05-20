@@ -37,23 +37,105 @@
 <p>The secret to doing good research is to always be a little underemployed. You waste years by not being able to waste hours - Amos Tversky</p>
 </blockquote>
 <p><em>(If you have time for only one paper, look at Two Lives.)</em></p>
+<div class="reads-page-grid">
+    <div class="reads-sidebar">
+        <div class="reads-menu">
+            
+        </div>
+    </div>
+    <div class="reads-content-column">
+        
+    </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const pageGrid = document.querySelector('.reads-page-grid');
+    const menuContainer = pageGrid.querySelector('.reads-menu');
+    const contentColumn = pageGrid.querySelector('.reads-content-column');
+
+    
+    const container = pageGrid.parentNode;
+    const h3s = Array.from(container.querySelectorAll('h3'));
+    
+    const sections = [];
+
+    h3s.forEach((h3, index) => {
+        const text = h3.textContent.trim();
+        const id = text.toLowerCase().replace(/[^a-z0-9]/g, '-');
+
+        
+        const section = document.createElement('div');
+        section.className = 'reads-section';
+        section.id = id + '-section';
+        
+        const readingContent = document.createElement('div');
+        readingContent.className = 'reading-content';
+        section.appendChild(readingContent);
+        
+        if (index === 0) {
+            section.classList.add('active');
+        }
+
+        
+        let sibling = h3.nextElementSibling;
+        const toMove = [];
+        while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && sibling !== pageGrid) {
+            toMove.push(sibling);
+            sibling = sibling.nextElementSibling;
+        }
+
+        
+        toMove.forEach(el => readingContent.appendChild(el));
+        
+        
+        contentColumn.appendChild(section);
+        sections.push(section);
+
+        
+        const button = document.createElement('button');
+        button.className = 'reads-menu-item';
+        if (index === 0) {
+            button.classList.add('active');
+        }
+        button.textContent = text.toUpperCase();
+        button.setAttribute('data-target', id);
+        
+        button.addEventListener('click', function() {
+            
+            menuContainer.querySelectorAll('.reads-menu-item').forEach(btn => btn.classList.remove('active'));
+            sections.forEach(sec => sec.classList.remove('active'));
+
+            
+            this.classList.add('active');
+            section.classList.add('active');
+        });
+
+        menuContainer.appendChild(button);
+
+        
+        h3.parentNode.removeChild(h3);
+    });
+});
+</script>
+
 <h3 id="a-matrix-trilogy">A Matrix Trilogy</h3>
 <ul>
-<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub">Two lives: Compositions of Unimodular rows</a>, Advances in Mathematics 389 (2021), 107917.    <a href="https://arxiv.org/pdf/2101.03862.pdf">[arXiv]</a>
+<li><a href="https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub">Two Lives: Compositions of Unimodular Rows</a>, <strong>Advances in Mathematics</strong> 389 (2021), 107917.    <a href="https://arxiv.org/pdf/2101.03862.pdf">[arXiv]</a>
 <em>When multiple research areas evolve around the same object, one expects that there is a connection between them. The more distinct the methods are, the more fruitful this connection will be. In this paper, we will explore this double life for unimodular rows.</em></li>
-<li><a href="https://ems.press/journals/dm/articles/8965591">Embeddings of Quadratic Spaces</a>, Documenta Math. 23 (2018) 1621 - 1634</li>
-<li><a href="https://ems.press/journals/dm/articles/8965428">On Suslin matrices and their connection to Spin Groups</a>, Documenta Math. 20 (2015) 531 - 550.    <a href="https://arxiv.org/pdf/2009.12107.pdf">[arXiv]</a></li>
+<li><a href="https://ems.press/journals/dm/articles/8965591">Embeddings of Quadratic Spaces</a>, <strong>Documenta Mathematica</strong> 23 (2018) 1621 - 1634</li>
+<li><a href="https://ems.press/journals/dm/articles/8965428">On Suslin Matrices and Their Connection to Spin Groups</a>, <strong>Documenta Mathematica</strong> 20 (2015) 531 - 550.    <a href="https://arxiv.org/pdf/2009.12107.pdf">[arXiv]</a></li>
 </ul>
-<h3 id="noncommutative-rings">Noncommutative rings</h3>
+<h3 id="noncommutative-rings">Noncommutative Rings</h3>
 <ul>
-<li>Centrality and partition of idempotents <a href="https://arxiv.org/abs/2311.08404">[preprint]</a></li>
-<li>A partition of finite rings makes lifting possible <a href="https://arxiv.org/abs/2009.12508">[preprint]</a></li>
-<li>Sorry, the nilpotents are in the center <a href="https://arxiv.org/abs/1805.11451">[preprint]</a></li>
-<li><a href="https://www.worldscientific.com/doi/10.1142/S0219498812500892">Maximum number of solutions of x<sup>q</sup> = x in a finite noncommutative algebra</a>, Journal Algebra and its applications, Volume 11, Number 5, 2012.</li>
+<li><a href="https://arxiv.org/abs/2311.08404">Centrality and Partition of Idempotents</a>, <strong>arXiv preprint</strong></li>
+<li><a href="https://arxiv.org/abs/2009.12508">A Partition of Finite Rings Makes Lifting Possible</a>, <strong>arXiv preprint</strong></li>
+<li><a href="https://arxiv.org/abs/1805.11451">Sorry, the Nilpotents Are in the Center</a>, <strong>arXiv preprint</strong></li>
+<li><a href="https://www.worldscientific.com/doi/10.1142/S0219498812500892">Maximum Number of Solutions of x<sup>q</sup> = x in a Finite Noncommutative Algebra</a>, <strong>Journal of Algebra and its Applications</strong>, Volume 11, Number 5, 2012.</li>
 </ul>
 <h3 id="microeconomics">Microeconomics</h3>
 <ul>
-<li>Two values are sufficient for choice consistency <a href="https://osf.io/preprints/socarxiv/gf6wq/">[preprint]</a></li>
+<li><a href="https://osf.io/preprints/socarxiv/gf6wq/">Two Values Are Sufficient for Choice Consistency</a>, <strong>SocArXiv preprint</strong></li>
 </ul>
 
 

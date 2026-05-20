@@ -218,6 +218,13 @@ blockquote {
     margin-bottom: 1.5rem;
 }
 
+.container ul:not(.nav-tabs) ul {
+    margin-top: 0.5rem;
+    padding-left: 1.25rem;
+    border-left: 2px solid var(--gold-leaf);
+    opacity: 0.85;
+}
+
 /* Poem Style */
 .poem {
     font-style: italic;
