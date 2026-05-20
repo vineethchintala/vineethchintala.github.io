@@ -15,7 +15,8 @@
     /* The Palette */
     --teal-ink: #2a7a6f;
     --gold-leaf: #c59b27;
-    --paper-warmth: color-mix(in srgb, white 93%, #c59b27 7%);
+    --soft-bone: #F8F5F2;
+    --paper-warmth: color-mix(in srgb, --soft-bone 99%, #c59b27 1%);
     --ink-black: #1c1c1c;
     --soft-shadow: rgba(42, 122, 111, 0.05);
 
@@ -46,7 +47,8 @@ body::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    opacity: 0.025; /* Very subtle, nearly invisible, elegant grain */
+    opacity: 0.025;
+    /* Very subtle, nearly invisible, elegant grain */
     pointer-events: none;
     z-index: 9999;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
@@ -362,7 +364,8 @@ footer {
 
 .book-title {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
-    font-size: 1.5rem; /* Elegant, large Serif */
+    font-size: 1.5rem;
+    /* Elegant, large Serif */
     font-weight: 600;
     line-height: 1.25;
     color: var(--ink-black);
@@ -373,7 +376,8 @@ footer {
 .book-meta {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
     font-size: 0.95rem;
-    font-style: italic; /* subtle, italicized author */
+    font-style: italic;
+    /* subtle, italicized author */
     color: var(--ink-black);
     opacity: 0.7;
     margin-bottom: 0.15rem;
@@ -383,7 +387,8 @@ footer {
     font-size: 0.95rem;
     line-height: 1.7;
     text-align: justify;
-    max-width: 60ch; /* narrow line-width (max 60 chars) for maximum readability */
+    max-width: 60ch;
+    /* narrow line-width (max 60 chars) for maximum readability */
     color: var(--ink-black);
     opacity: 0.9;
 }
@@ -441,13 +446,13 @@ footer {
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-    
+
     .reading-sidebar {
         position: static;
         border-bottom: 1px solid rgba(197, 155, 39, 0.2);
         padding-bottom: 0.5rem;
     }
-    
+
     .sticky-category {
         border-bottom: none;
         padding-bottom: 0;
