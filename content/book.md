@@ -51,10 +51,9 @@ There are a lot of good books and lecture notes out there, each having their own
     Mathematical Puzzles - Peter Winkler<br>
     Also recommend checking out people who wrote widely (and well) on recreational mathematics - Henry Dudeney, Sam Lloyd, Martin Gardener, Ross Honsberger, Peter Winkler
 
-6.  **A list of famous algorithms:**<br>
-    [https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
+6.  [**A list of famous algorithms:**](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
 
 7.  **Science Writing:**<br>
     Here are a couple of engaging talks on science writing that I found extremely useful. Both cover different ground, so check them both sometime.<br>
-    Larry McEnerny: [https://youtu.be/vtIzMaLkCaM](https://youtu.be/vtIzMaLkCaM?si=Wr9pdsexvdFepISi)<br>
-    Judy Swan: [https://youtu.be/jLPCdDp_LE0](https://youtu.be/jLPCdDp_LE0?si=E6-YTx8FYEY7TdJC)
+    Larry McEnerny: [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM?si=Wr9pdsexvdFepISi)<br>
+    Judy Swan: [Scientific Writing: Beyond Tips and Tricks](https://youtu.be/jLPCdDp_LE0?si=E6-YTx8FYEY7TdJC)
