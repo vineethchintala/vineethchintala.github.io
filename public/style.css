@@ -316,9 +316,9 @@ footer {
     color: var(--teal-ink);
 }
 
-/* Asymmetric Marginalia Layout */
-.reads-section {
-    display: none; /* Hide sections by default */
+/* Asymmetric reads-page-grid */
+.reads-page-grid {
+    display: grid;
     grid-template-columns: 180px 1fr;
     column-gap: 4rem;
     row-gap: 2.5rem;
@@ -327,33 +327,62 @@ footer {
     align-items: start;
 }
 
-.reads-section.active {
-    display: grid; /* Show active section as grid */
-}
-
-.reading-sidebar {
+.reads-sidebar {
     position: -webkit-sticky;
     position: sticky;
     top: 40px;
     padding-top: 0.25rem;
 }
 
-.sticky-category {
+/* Vertical Menu Styling */
+.reads-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.reads-menu-item {
+    background: none;
+    border: none;
+    padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--teal-ink);
-    border-bottom: 2px solid var(--gold-leaf);
-    padding-bottom: 0.5rem;
-    display: inline-block;
+    color: var(--ink-black);
+    opacity: 0.4;
+    cursor: pointer;
+    text-align: left;
+    transition: var(--vibe-shift);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
 }
 
-.reading-content {
+.reads-menu-item:hover {
+    opacity: 0.8;
+}
+
+.reads-menu-item.active {
+    opacity: 1;
+    color: var(--teal-ink);
+    border-bottom: 2px solid var(--gold-leaf);
+}
+
+.reads-content-column {
     display: flex;
     flex-direction: column;
+}
+
+.reads-section {
+    display: none;
+    flex-direction: column;
     gap: 3.5rem;
+}
+
+.reads-section.active {
+    display: flex;
 }
 
 /* Book Entry Styling (Typographic Hierarchy) */
@@ -403,49 +432,7 @@ footer {
 }
 
 /* Reads Tabs Filter Control */
-.reads-tabs-container {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -1.5rem;
-    margin-bottom: 3rem;
-}
-
-.reads-tabs {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-}
-
-.reads-tab {
-    background: none;
-    border: none;
-    padding: 0;
-    color: var(--ink-black);
-    opacity: 0.4;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: var(--vibe-shift);
-    font-weight: 700;
-}
-
-.reads-tab:hover {
-    opacity: 0.8;
-}
-
-.reads-tab.active {
-    opacity: 1;
-    color: var(--teal-ink);
-}
-
-.reads-tab-divider {
-    color: var(--gold-leaf);
-    opacity: 0.5;
-    font-weight: 400;
-}
+/* Legacy Filter Removed - Handled vertically by sidebar menu */
 
 /* Responsive Perfection */
 @media (max-width: 650px) {
@@ -483,26 +470,27 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .reads-section.active {
-        display: block; /* Collapse grid to block display on mobile */
-    }
-
-    .reads-section {
+    .reads-page-grid {
         grid-template-columns: 1fr;
         column-gap: 0;
-        row-gap: 1.5rem;
+        row-gap: 2rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-
-    .reading-sidebar {
+    
+    .reads-sidebar {
         position: static;
         border-bottom: 1px solid rgba(197, 155, 39, 0.2);
-        padding-bottom: 0.5rem;
+        padding-bottom: 1rem;
     }
-
-    .sticky-category {
-        border-bottom: none;
-        padding-bottom: 0;
+    
+    .reads-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    
+    .reads-menu-item {
+        padding-bottom: 0.15rem;
     }
 }

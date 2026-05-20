@@ -38,17 +38,95 @@
 </blockquote>
 <div class="reads-tabs-container">
     <div class="reads-tabs">
-        <button class="reads-tab active" onclick="showCategory('fiction')">FICTION</button>
+        <button class="reads-tab active" data-target="fiction">FICTION</button>
         <span class="reads-tab-divider">/</span>
-        <button class="reads-tab" onclick="showCategory('nonfiction')">NON-FICTION</button>
+        <button class="reads-tab" data-target="nonfiction">NON-FICTION</button>
     </div>
 </div>
-<div id="fiction-section" class="reads-section active">
-    <div class="reading-sidebar">
-        <span class="sticky-category">Fiction</span>
-    </div>
-    <div class="reading-content">
-        <div class="book-entry">
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const tabs = document.querySelectorAll('.reads-tab');
+    
+    
+    const h3s = Array.from(document.querySelectorAll('.container h3'));
+    let fictionSection = null;
+    let nonfictionSection = null;
+
+    h3s.forEach(h3 => {
+        const text = h3.textContent.trim().toLowerCase();
+        const isFiction = text.includes('fiction') && !text.includes('non');
+        const isNonFiction = text.includes('non');
+
+        if (isFiction || isNonFiction) {
+            
+            const section = document.createElement('div');
+            section.className = 'reads-section';
+            section.id = isFiction ? 'fiction-section' : 'nonfiction-section';
+            
+            if (isFiction) {
+                section.classList.add('active');
+                fictionSection = section;
+            } else {
+                nonfictionSection = section;
+            }
+
+            
+            const sidebar = document.createElement('div');
+            sidebar.className = 'reading-sidebar';
+            const span = document.createElement('span');
+            span.className = 'sticky-category';
+            span.textContent = isFiction ? 'Fiction' : 'Nonfiction';
+            sidebar.appendChild(span);
+            section.appendChild(sidebar);
+
+            
+            const content = document.createElement('div');
+            content.className = 'reading-content';
+            section.appendChild(content);
+
+            
+            let sibling = h3.nextElementSibling;
+            const toMove = [];
+            while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && !sibling.classList.contains('reads-tabs-container')) {
+                toMove.push(sibling);
+                sibling = sibling.nextElementSibling;
+            }
+
+            
+            toMove.forEach(el => content.appendChild(el));
+
+            
+            h3.parentNode.insertBefore(section, h3);
+            h3.parentNode.removeChild(h3);
+        }
+    });
+
+    function applyFilter(target) {
+        if (fictionSection) {
+            fictionSection.classList.toggle('active', target === 'fiction');
+        }
+        if (nonfictionSection) {
+            nonfictionSection.classList.toggle('active', target === 'nonfiction');
+        }
+    }
+
+    
+    applyFilter('fiction');
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            tabs.forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+            const target = this.getAttribute('data-target');
+            applyFilter(target);
+        });
+    });
+});
+</script>
+
+<h3 id="fiction">Fiction</h3>
+<div class="book-entry">
     <h4 class="book-title">In Search of lost time</h4>
     
     <div class="book-meta">
@@ -57,16 +135,14 @@
     
     
     <div class="book-blurb">
-        <pre><code>    Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
-
-    Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
-</code></pre>
+        <p>Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.</p>
+<p>Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.</p>
 
     </div>
     
 </div>
 
-<pre><code>    <div class="book-entry">
+<div class="book-entry">
     <h4 class="book-title">The man without qualities</h4>
     
     <div class="book-meta">
@@ -75,17 +151,14 @@
     
     
     <div class="book-blurb">
-        <pre><code>    The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values.
-
-    A thinking novel, baked with huge ambition and a creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
-</code></pre>
+        <p>The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will <strong>define</strong> it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don&rsquo;t seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values.</p>
+<p>A thinking novel, baked with huge ambition and a creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.</p>
 
     </div>
     
 </div>
 
-
-    <div class="book-entry">
+<div class="book-entry">
     <h4 class="book-title">Eugene Onegin</h4>
     
     <div class="book-meta">
@@ -94,198 +167,151 @@
     
     
     <div class="book-blurb">
-        <pre><code>    In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.)
-
-    The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate.
-</code></pre>
+        <p>In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.)</p>
+<p>The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a <a href="/#phd-poem">poem</a> written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate.</p>
 
     </div>
     
 </div>
 
-
-    <div class="book-entry">
-            <h4 class="book-title">Gateway</h4>
-            
-            <div class="book-meta">
-                by Frederik Pohl
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">The Golden Notebook</h4>
-            
-            <div class="book-meta">
-                by Doris Lessing
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Exhalation</h4>
-            
-            <div class="book-meta">
-                by Ted Chiang
-            </div>
-            
-            
-        </div>
-
-
-    &lt;p style=&quot;font-style: italic; opacity: 0.85; margin: 2rem 0 1rem 0; font-family: var(--font-main);&quot;&gt;19th-century Russian literature, in particular:&lt;/p&gt;
-
-    <div class="book-entry">
-            <h4 class="book-title">The shot</h4>
-            
-            <div class="book-meta">
-                by Alexander Pushkin
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Sketches from a hunter&#39;s album</h4>
-            
-            <div class="book-meta">
-                by Ivan Turgenev
-            </div>
-            
-            
-        </div>
-
-&lt;/div&gt;
-</code></pre>
-</div>
-<div id="nonfiction-section" class="reads-section">
-    <div class="reading-sidebar">
-        <span class="sticky-category">Nonfiction</span>
+<div class="book-entry">
+    <h4 class="book-title">Gateway</h4>
+    
+    <div class="book-meta">
+        by Frederik Pohl
     </div>
-    <div class="reading-content">
-        <div class="book-entry">
-            <h4 class="book-title">Repeat after me</h4>
-            
-            <div class="book-meta">
-                by David Sedaris
-            </div>
-            
-            
-        </div>
-
-<pre><code>    <div class="book-entry">
-            <h4 class="book-title">Hitchcock-Truffaut interviews</h4>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Far from the tree</h4>
-            
-            <div class="book-meta">
-                by Andrew Solomon
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Consider this</h4>
-            
-            <div class="book-meta">
-                by Chuck Palahniuk
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">The Power Broker</h4>
-            
-            <div class="book-meta">
-                by Robert Caro
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">The Undoing Project</h4>
-            
-            <div class="book-meta">
-                by Michael Lewis
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Death and life of great American cities</h4>
-            
-            <div class="book-meta">
-                by Jane Jacobs
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">The sensual Quadratic Form</h4>
-            
-            <div class="book-meta">
-                by John Conway
-            </div>
-            
-            
-        </div>
-
-
-    <div class="book-entry">
-            <h4 class="book-title">Economics</h4>
-            
-            <div class="book-meta">
-                by Hugh Stretton
-            </div>
-            
-            
-        </div>
-
-&lt;/div&gt;
-</code></pre>
+    
+    
 </div>
-<script>
-function showCategory(cat) {
-    // Toggle active reads-tab button highlight
-    document.querySelectorAll('.reads-tab').forEach(btn => {
-        const target = btn.getAttribute('onclick');
-        if (target && target.includes(cat)) {
-            btn.classList.add('active');
-        } else {
-            btn.classList.remove('active');
-        }
-    });
 
-    // Toggle active sections display
-    document.querySelectorAll('.reads-section').forEach(sec => {
-        if (sec.id === cat + '-section') {
-            sec.classList.add('active');
-        } else {
-            sec.classList.remove('active');
-        }
-    });
-}
-</script>
+<div class="book-entry">
+    <h4 class="book-title">The Golden Notebook</h4>
+    
+    <div class="book-meta">
+        by Doris Lessing
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Exhalation</h4>
+    
+    <div class="book-meta">
+        by Ted Chiang
+    </div>
+    
+    
+</div>
+
+<p><em>19th-century Russian literature, in particular:</em></p>
+<div class="book-entry">
+    <h4 class="book-title">The shot</h4>
+    
+    <div class="book-meta">
+        by Alexander Pushkin
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Sketches from a hunter&#39;s album</h4>
+    
+    <div class="book-meta">
+        by Ivan Turgenev
+    </div>
+    
+    
+</div>
+
+<h3 id="nonfiction">Nonfiction</h3>
+<div class="book-entry">
+    <h4 class="book-title">Repeat after me</h4>
+    
+    <div class="book-meta">
+        by David Sedaris
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Hitchcock-Truffaut interviews</h4>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Far from the tree</h4>
+    
+    <div class="book-meta">
+        by Andrew Solomon
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Consider this</h4>
+    
+    <div class="book-meta">
+        by Chuck Palahniuk
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">The Power Broker</h4>
+    
+    <div class="book-meta">
+        by Robert Caro
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">The Undoing Project</h4>
+    
+    <div class="book-meta">
+        by Michael Lewis
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Death and life of great American cities</h4>
+    
+    <div class="book-meta">
+        by Jane Jacobs
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">The sensual Quadratic Form</h4>
+    
+    <div class="book-meta">
+        by John Conway
+    </div>
+    
+    
+</div>
+
+<div class="book-entry">
+    <h4 class="book-title">Economics</h4>
+    
+    <div class="book-meta">
+        by Hugh Stretton
+    </div>
+    
+    
+</div>
+
 
 
 
