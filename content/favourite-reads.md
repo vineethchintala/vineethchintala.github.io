@@ -37,7 +37,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Exhalation
 *Ted Chiang*
 
-*19th-century Russian literature, in particular:*
+### 19th-century Russian literature, in particular:
 
 #### The shot
 *Alexander Pushkin*
