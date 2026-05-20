@@ -33,15 +33,15 @@ There are a lot of good books and lecture notes out there, each having their own
 2.  **Intermediate to Advanced:**<br>
     Graph theory, Diestel<br>
     Spectral and algebraic graph theory, Spielman<br>
-    Also check out the following talk by Spielman: [Miracles in Algebraic graph theory](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
+    [Miracles in Algebraic graph theory](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
 
 3.  **Specialized topics:**<br>
     Two sided matching - Roth, Sotomayer<br>
     The game of cops and robbers on Graphs - Bonato, Nowakowski
 
 4.  **Advanced:**<br>
-    The Probabilistic method - Alon, Spencer (The book for the probabilistic method)<br>
-    Erdos on Graphs - Chung, Graham (contains many open problems)<br>
+    The Probabilistic method - Alon, Spencer <br>
+    Erdos on Graphs - Chung, Graham <br>
     Enumerative Combinatorics - Richard Stanley
 
 5.  **Some resources for puzzles/gems:**<br>
@@ -54,6 +54,5 @@ There are a lot of good books and lecture notes out there, each having their own
 6.  [**A list of famous algorithms**](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
 
 7.  **Science Writing:**<br>
-    Here are a couple of engaging talks on science writing that I found extremely useful. Both cover different ground, so check them both sometime.<br>
     Larry McEnerny: [The Craft of Writing Effectively](https://youtu.be/vtIzMaLkCaM?si=Wr9pdsexvdFepISi)<br>
     Judy Swan: [Scientific Writing: Beyond Tips and Tricks](https://youtu.be/jLPCdDp_LE0?si=E6-YTx8FYEY7TdJC)
