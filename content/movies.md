@@ -8,6 +8,8 @@ title: "Cinema"
 
 **Rules:** In no particular order. With few words and No spoilers!
 
+
+
 {{< movie num="01" title="Chungking Express" year="1994" >}}
 Shows how effective, and playful, symmetry can be in storytelling. After all, nothing makes a relationship look more convincing than me becoming like you and you becoming like me.
 {{< /movie >}}
