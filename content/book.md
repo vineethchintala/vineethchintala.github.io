@@ -22,14 +22,13 @@ This is intended to be a short fun book covering graph theory and algorithms, de
 
 ### Graph theory resources
 
-There are a lot of books and lecture notes out there, each having their own style and content - I recommend checking out and finding what suits your interests.
+There are a lot of good books and lecture notes out there, each having their own style and content - I recommend checking out and finding what suits your interests. Here is a short curated list.
 
-1.  **Basic to Intermediate:**<br>
+1.  **Introductory:**<br>
     Invitation to discrete mathematics - Matousek, Nesetril<br>
     Algorithms illuminated - Roughgarden<br>
-    Algorithm design - Tardos, Kleinberg<br>
     The discrete mathematical charms of Paul Erdos - Vasek Chvatal<br>
-    Some other popular textbooks are by Douglas West, Bondy and Murty, Harary, Bóna
+    Networks, Crowds and Markets - Easley, Kleinberg<br>
 
 2.  **Intermediate to Advanced:**<br>
     Graph theory, Diestel<br>
