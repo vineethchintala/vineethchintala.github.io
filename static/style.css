@@ -75,11 +75,12 @@ header {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-family: var(--font-display);
+    font-size: 1.6em;
     color: var(--teal-ink);
-    font-weight: 400;
+    font-weight: 600;
     margin: 0;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.02em;
 }
 
 h1 a {
@@ -97,10 +98,10 @@ h1 a {
 }
 
 .nav-tabs a {
-    font-weight: bold;
-    text-transform: lowercase;
+    font-family: var(--font-display);
+    font-weight: 600;
     letter-spacing: 0.01em;
-    font-size: 1em;
+    font-size: 1.05em;
     display: inline-block;
 }
 
