@@ -33,7 +33,7 @@ There are a lot of good books and lecture notes out there, each having their own
 2.  **Intermediate to Advanced:**<br>
     Graph theory, Diestel<br>
     Spectral and algebraic graph theory, Spielman<br>
-    Also check out the following talk: [Miracles in Algebraic graph theory by Spielman](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
+    Also check out the following talk by Spielman: [Miracles in Algebraic graph theory](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
 
 3.  **Specialized topics:**<br>
     Two sided matching - Roth, Sotomayer<br>
@@ -51,7 +51,7 @@ There are a lot of good books and lecture notes out there, each having their own
     Mathematical Puzzles - Peter Winkler<br>
     Also recommend checking out people who wrote widely (and well) on recreational mathematics - Henry Dudeney, Sam Lloyd, Martin Gardener, Ross Honsberger, Peter Winkler
 
-6.  [**A list of famous algorithms:**](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
+6.  [**A list of famous algorithms**](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
 
 7.  **Science Writing:**<br>
     Here are a couple of engaging talks on science writing that I found extremely useful. Both cover different ground, so check them both sometime.<br>
