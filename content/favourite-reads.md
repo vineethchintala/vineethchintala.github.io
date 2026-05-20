@@ -10,8 +10,7 @@ title: "Reading"
 
 ### Fiction
 
-#### In Search of lost time
-*Marcel Proust*
+#### In Search of lost time, *Marcel Proust*
 
 Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
 
