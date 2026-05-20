@@ -24,7 +24,7 @@ This is intended to be a short fun book covering graph theory and algorithms, de
 
 There are a lot of books and lecture notes out there, each having their own style and content - I recommend checking out and finding what suits your interests.
 
-1.  **Basic to Intermediate, highly readable (where some chapters cover graph theory):**<br>
+1.  **Basic to Intermediate:**<br>
     Invitation to discrete mathematics - Matousek, Nesetril<br>
     Algorithms illuminated - Roughgarden<br>
     Algorithm design - Tardos, Kleinberg<br>
