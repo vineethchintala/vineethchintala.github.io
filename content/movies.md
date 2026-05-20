@@ -6,7 +6,7 @@ title: "Cinema"
 
 > Once in a while a movie elevates itself with a perfect finish, with a final unforgettable impression. It can be the difference between going home satisfied and still remembering it years later. The difference between passing joy and lifelong love.
 
-**Rules:** In no particular order. With few words and No spoilers!
+<p style="font-size: 0.82rem; opacity: 0.7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; letter-spacing: 0.02em; margin-top: 1.5rem; margin-bottom: 2rem;"><strong>Rules:</strong> In no particular order. With few words and No spoilers!</p>
 
 
 
