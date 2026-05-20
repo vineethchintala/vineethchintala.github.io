@@ -6,7 +6,7 @@ title: "Research"
 
 > The secret to doing good research is to always be a little underemployed. You waste years by not being able to waste hours - Amos Tversky
 
-*(If you have time for only one paper, look at Two Lives.)*
+(If you have time for only one paper, look at Two Lives.)
 
 {{< reads-tabs >}}
 ### A Matrix Trilogy
