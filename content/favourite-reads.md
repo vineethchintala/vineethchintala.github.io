@@ -26,40 +26,40 @@ In my world, this is the best type of novel - short, deep and playful. With exqu
 The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate.
 {{< /book >}}
 
-{{< book title="Gateway" author="Frederik Pohl" >}}
+{{< book title="Gateway" author="Frederik Pohl" >}}{{< /book >}}
 
-{{< book title="The Golden Notebook" author="Doris Lessing" >}}
+{{< book title="The Golden Notebook" author="Doris Lessing" >}}{{< /book >}}
 
-{{< book title="Exhalation" author="Ted Chiang" >}}
+{{< book title="Exhalation" author="Ted Chiang" >}}{{< /book >}}
 
 <br>
 
 *19th-century Russian literature, in particular:*
 
-{{< book title="The shot" author="Alexander Pushkin" >}}
+{{< book title="The shot" author="Alexander Pushkin" >}}{{< /book >}}
 
-{{< book title="Sketches from a hunter's album" author="Ivan Turgenev" >}}
+{{< book title="Sketches from a hunter's album" author="Ivan Turgenev" >}}{{< /book >}}
 
 {{< /reading-section >}}
 
 {{< reading-section category="Nonfiction" >}}
 
-{{< book title="Repeat after me" author="David Sedaris" >}}
+{{< book title="Repeat after me" author="David Sedaris" >}}{{< /book >}}
 
-{{< book title="Hitchcock-Truffaut interviews" >}}
+{{< book title="Hitchcock-Truffaut interviews" >}}{{< /book >}}
 
-{{< book title="Far from the tree" author="Andrew Solomon" >}}
+{{< book title="Far from the tree" author="Andrew Solomon" >}}{{< /book >}}
 
-{{< book title="Consider this" author="Chuck Palahniuk" >}}
+{{< book title="Consider this" author="Chuck Palahniuk" >}}{{< /book >}}
 
-{{< book title="The Power Broker" author="Robert Caro" >}}
+{{< book title="The Power Broker" author="Robert Caro" >}}{{< /book >}}
 
-{{< book title="The Undoing Project" author="Michael Lewis" >}}
+{{< book title="The Undoing Project" author="Michael Lewis" >}}{{< /book >}}
 
-{{< book title="Death and life of great American cities" author="Jane Jacobs" >}}
+{{< book title="Death and life of great American cities" author="Jane Jacobs" >}}{{< /book >}}
 
-{{< book title="The sensual Quadratic Form" author="John Conway" >}}
+{{< book title="The sensual Quadratic Form" author="John Conway" >}}{{< /book >}}
 
-{{< book title="Economics" author="Hugh Stretton" >}}
+{{< book title="Economics" author="Hugh Stretton" >}}{{< /book >}}
 
 {{< /reading-section >}}

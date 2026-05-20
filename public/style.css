@@ -431,9 +431,7 @@ footer {
         width: 50%;
         margin-bottom: 1rem;
     }
-}
 
-@media (max-width: 768px) {
     .reading-grid {
         grid-template-columns: 1fr;
         column-gap: 0;
