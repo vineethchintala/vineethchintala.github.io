@@ -1,0 +1,13 @@
+<div class="book-entry">
+    <h4 class="book-title">{{ .Get "title" }}</h4>
+    {{ if .Get "author" }}
+    <div class="book-meta">
+        by {{ .Get "author" }}
+    </div>
+    {{ end }}
+    {{ if .Inner }}
+    <div class="book-blurb">
+        {{ .Inner | markdownify }}
+    </div>
+    {{ end }}
+</div>

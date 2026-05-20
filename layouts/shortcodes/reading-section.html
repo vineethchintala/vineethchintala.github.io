@@ -1,0 +1,8 @@
+<div class="reading-grid">
+    <div class="reading-sidebar">
+        <span class="sticky-category">{{ .Get "category" }}</span>
+    </div>
+    <div class="reading-content">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

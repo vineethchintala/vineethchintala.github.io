@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
 /* 1. The Artist's Reset */
 *,
 *::before,
@@ -315,6 +317,85 @@ footer {
     color: var(--teal-ink);
 }
 
+/* Asymmetric Marginalia Layout */
+.reading-grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    column-gap: 4rem;
+    row-gap: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    align-items: start;
+}
+
+.reading-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    padding-top: 0.25rem;
+}
+
+.sticky-category {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--teal-ink);
+    border-bottom: 2px solid var(--gold-leaf);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.reading-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+/* Book Entry Styling (Typographic Hierarchy) */
+.book-entry {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.book-title {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 1.5rem; /* Elegant, large Serif */
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--ink-black);
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+.book-meta {
+    font-family: 'Cormorant Garamond', 'Georgia', serif;
+    font-size: 0.95rem;
+    font-style: italic; /* subtle, italicized author */
+    color: var(--ink-black);
+    opacity: 0.7;
+    margin-bottom: 0.15rem;
+}
+
+.book-blurb {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: justify;
+    max-width: 60ch; /* narrow line-width (max 60 chars) for maximum readability */
+    color: var(--ink-black);
+    opacity: 0.9;
+}
+
+.book-blurb p {
+    margin-bottom: 1rem;
+}
+
+.book-blurb p:last-child {
+    margin-bottom: 0;
+}
+
 /* Responsive Perfection */
 @media (max-width: 650px) {
     header {
@@ -349,5 +430,26 @@ footer {
     .book-box img {
         width: 50%;
         margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .reading-grid {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 1.5rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+    .reading-sidebar {
+        position: static;
+        border-bottom: 1px solid rgba(197, 155, 39, 0.2);
+        padding-bottom: 0.5rem;
+    }
+    
+    .sticky-category {
+        border-bottom: none;
+        padding-bottom: 0;
     }
 }

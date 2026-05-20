@@ -6,63 +6,60 @@ title: "Reading"
 
 > Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.
 
-### Fiction
+{{< reading-section category="Fiction" >}}
 
-**In Search of lost time** - Marcel Proust
-
-{{< desc >}}
-Many writers are good at capturing a particular emotion, a specific moment.  Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose. 
+{{< book title="In Search of lost time" author="Marcel Proust" >}}
+Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
 
 Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
+{{< /book >}}
 
-{{< /desc >}}
+{{< book title="The man without qualities" author="Robert Musil" >}}
+The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values.
 
-**The man without qualities** - Robert Musil
+A thinking novel, baked with huge ambition and a creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
+{{< /book >}}
 
-{{< desc >}}
-The novel keeps surprising us every time the hero contemplates the boundaries of crime and morality. And every time he observes this boundary, we wonder how he will react to it. Even more, we wonder how he will **define** it. This is the greatness of the book - the cold possibilities for an individual imagined, the equilibrium of society analyzed. Somehow even suicide and murder don't seem to disturb the dusty corners of our minds, as the tension between two best friends or the casual questioning of social values. 
+{{< book title="Eugene Onegin" author="Alexander Pushkin" >}}
+In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.)
 
-A thinking novel, baked with huge ambition and creamy layer of lightness. Musil spent the last 20 years of his life writing it and it remains unfinished.
-{{< /desc >}}
+The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate.
+{{< /book >}}
 
+{{< book title="Gateway" author="Frederik Pohl" >}}
 
-**Eugene Onegin** - Alexander Pushkin 
-{{< desc >}}
+{{< book title="The Golden Notebook" author="Doris Lessing" >}}
 
-In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.) 
+{{< book title="Exhalation" author="Ted Chiang" >}}
 
-The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate. 
-{{< /desc >}}
+<br>
 
+*19th-century Russian literature, in particular:*
 
-**Gateway** - Frederik Pohl
+{{< book title="The shot" author="Alexander Pushkin" >}}
 
-**The Golden Notebook** - Doris Lessing
+{{< book title="Sketches from a hunter's album" author="Ivan Turgenev" >}}
 
-**Exhalation** - Ted Chiang
+{{< /reading-section >}}
 
-**19th-century Russian literature, in particular:**
+{{< reading-section category="Nonfiction" >}}
 
-**The shot** - Alexander Pushkin
+{{< book title="Repeat after me" author="David Sedaris" >}}
 
-**Sketches from a hunter's album** - Ivan Turgenev
+{{< book title="Hitchcock-Truffaut interviews" >}}
 
-### Nonfiction
+{{< book title="Far from the tree" author="Andrew Solomon" >}}
 
-**Repeat after me** - David Sedaris
+{{< book title="Consider this" author="Chuck Palahniuk" >}}
 
-**Hitchcock-Truffaut interviews**
+{{< book title="The Power Broker" author="Robert Caro" >}}
 
-**Far from the tree** - Andrew Solomon
+{{< book title="The Undoing Project" author="Michael Lewis" >}}
 
-**Consider this** - Chuck Palahniuk
+{{< book title="Death and life of great American cities" author="Jane Jacobs" >}}
 
-**The Power Broker** - Robert Caro
+{{< book title="The sensual Quadratic Form" author="John Conway" >}}
 
-**The Undoing Project** - Michael Lewis
+{{< book title="Economics" author="Hugh Stretton" >}}
 
-**Death and life of great American cities** - Jane Jacobs
-
-**The sensual Quadratic Form** - John Conway
-
-**Economics** - Hugh Stretton
+{{< /reading-section >}}
