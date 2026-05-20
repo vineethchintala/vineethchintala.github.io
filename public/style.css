@@ -11,6 +11,7 @@
 :root {
     /* One Master Font: Literary, timeless, and human */
     --font-main: 'et-book', 'Georgia', serif;
+    --font-display: 'Cormorant Garamond', 'Georgia', serif;
 
     /* The Palette */
     --teal-ink: #2a7a6f;
@@ -134,18 +135,21 @@ li {
 
 h2,
 h3 {
-    font-size: 1.2em;
+    font-family: var(--font-display);
     color: var(--ink-black);
-    font-weight: 600;
-    letter-spacing: 0em;
+    letter-spacing: -0.01em;
 }
 
 h2 {
+    font-size: 1.6rem;
+    font-weight: 600;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 0.75rem;
 }
