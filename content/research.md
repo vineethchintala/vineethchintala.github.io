@@ -13,7 +13,7 @@ title: "Research"
 ### A Matrix Trilogy
 
 #### [Two Lives: Compositions of Unimodular Rows](https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub)
-**Advances in Mathematics** 389 (2021), 107917 • [arXiv](https://arxiv.org/pdf/2101.03862.pdf)
+**Advances in Mathematics** 389 (2021), 107917.
 
 When multiple research areas evolve around the same object, one expects that there is a connection between them. The more distinct the methods are, the more fruitful this connection will be. In this paper, we will explore this double life for unimodular rows.
 
@@ -21,7 +21,7 @@ When multiple research areas evolve around the same object, one expects that the
 **Documenta Mathematica** 23 (2018) 1621 - 1634
 
 #### [On Suslin Matrices and Their Connection to Spin Groups](https://ems.press/journals/dm/articles/8965428)
-**Documenta Mathematica** 20 (2015) 531 - 550 • [arXiv](https://arxiv.org/pdf/2009.12107.pdf)
+**Documenta Mathematica** 20 (2015) 531 - 550.
 
 ### Noncommutative Rings
 
