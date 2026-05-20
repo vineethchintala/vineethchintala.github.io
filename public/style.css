@@ -352,7 +352,7 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--ink-black);
+    color: var(--teal-ink);
     opacity: 0.4;
     cursor: pointer;
     text-align: left;
