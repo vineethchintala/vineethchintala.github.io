@@ -227,6 +227,79 @@ footer {
     opacity: 0.6;
 }
 
+/* Film Strip Layout (Cinema Page) */
+.film-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 3rem;
+    row-gap: 0.5rem;
+    margin-bottom: 3.5rem;
+    align-items: start;
+    transition: var(--vibe-shift);
+}
+
+.film-row + .film-row {
+    border-top: 1px solid rgba(197, 155, 39, 0.1);
+    padding-top: 2rem;
+}
+
+.film-meta {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    line-height: 1.5;
+    color: var(--ink-black);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    transition: var(--vibe-shift);
+}
+
+.film-num {
+    color: var(--gold-leaf);
+    margin-right: 0.4em;
+    opacity: 0.7;
+    font-weight: 800;
+    transition: var(--vibe-shift);
+}
+
+.film-title {
+    color: var(--ink-black);
+    transition: var(--vibe-shift);
+}
+
+.film-year {
+    font-weight: 400;
+    opacity: 0.6;
+    margin-left: 0.25em;
+}
+
+.film-commentary {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.film-commentary p {
+    margin-bottom: 0;
+}
+
+/* Hover effects for filmic interactivity */
+.film-row:hover {
+    border-top-color: rgba(42, 122, 111, 0.3);
+}
+
+.film-row:hover .film-num {
+    opacity: 1;
+    color: var(--teal-ink);
+}
+
+.film-row:hover .film-title {
+    color: var(--teal-ink);
+}
+
 /* Responsive Perfection */
 @media (max-width: 650px) {
     header {
@@ -244,7 +317,13 @@ footer {
         gap: 10px;
     }
 
-
+    .film-row {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 0.75rem;
+        margin-bottom: 2.5rem;
+        padding-top: 1.5rem;
+    }
 
     .book-box {
         flex-direction: column;
