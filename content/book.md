@@ -33,7 +33,7 @@ There are a lot of good books and lecture notes out there, each having their own
 2.  **Intermediate to Advanced:**<br>
     Graph theory, Diestel<br>
     Spectral and algebraic graph theory, Spielman<br>
-    Also check out the following talk: Miracles in Algebraic graph theory by Spielman [https://youtu.be/CDMQR422LGM](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
+    Also check out the following talk: [Miracles in Algebraic graph theory by Spielman](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
 
 3.  **Specialized topics:**<br>
     Two sided matching - Roth, Sotomayer<br>
