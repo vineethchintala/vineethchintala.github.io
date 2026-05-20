@@ -206,13 +206,6 @@ blockquote {
     text-align: justify;
 }
 
-/* Book Descriptions */
-.book-desc {
-    margin-left: 3rem;
-    padding-left: 2rem;
-    margin-bottom: 2rem;
-    margin-top: -0.5rem;
-}
 
 /* Lists - Improved for Perfection */
 .container ul:not(.nav-tabs) {
@@ -324,14 +317,18 @@ footer {
 }
 
 /* Asymmetric Marginalia Layout */
-.reading-grid {
-    display: grid;
+.reads-section {
+    display: none; /* Hide sections by default */
     grid-template-columns: 180px 1fr;
     column-gap: 4rem;
     row-gap: 2.5rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
     align-items: start;
+}
+
+.reads-section.active {
+    display: grid; /* Show active section as grid */
 }
 
 .reading-sidebar {
@@ -486,7 +483,11 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .reading-grid {
+    .reads-section.active {
+        display: block; /* Collapse grid to block display on mobile */
+    }
+
+    .reads-section {
         grid-template-columns: 1fr;
         column-gap: 0;
         row-gap: 1.5rem;
