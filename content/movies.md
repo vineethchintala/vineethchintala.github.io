@@ -13,7 +13,7 @@ Shows how effective, and playful, symmetry can be in storytelling. After all, no
 {{< /movie >}}
 
 {{< movie num="02" title="Portrait of a Lady on Fire" year="2019" >}}
-Remember, not regret. There is a parallel between the creation of art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the story of Eurydice discussed in the film, there is no conflict between love and art. The final memory of the artist is also the final memory of the lover. Definitely my favourite movie of the last 10 years.
+"Don't regret. Remember." There is a parallel between the creation of art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the story of Eurydice discussed in the film, there is no conflict between love and art. The final memory of the artist is also the final memory of the lover. Definitely my favourite movie of the last 10 years.
 {{< /movie >}}
 
 {{< movie num="03" title="Aftersun" year="2023" >}}
