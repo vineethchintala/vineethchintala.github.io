@@ -312,11 +312,6 @@ footer {
 
 .film-row:hover .film-num {
     opacity: 1;
-    color: var(--teal-ink);
-}
-
-.film-row:hover .film-title {
-    color: var(--teal-ink);
 }
 
 /* Asymmetric Marginalia Layout */
