@@ -299,6 +299,7 @@ footer {
     font-size: 0.95rem;
     line-height: 1.7;
     text-align: justify;
+    transition: var(--vibe-shift);
 }
 
 .film-commentary p {
@@ -307,11 +308,20 @@ footer {
 
 /* Hover effects for filmic interactivity */
 .film-row:hover {
-    border-top-color: rgba(42, 122, 111, 0.3);
+    border-top-color: rgba(42, 122, 111, 0.4);
 }
 
 .film-row:hover .film-num {
     opacity: 1;
+    color: var(--teal-ink);
+}
+
+.film-row:hover .film-title {
+    color: var(--teal-ink);
+}
+
+.film-row:hover .film-commentary {
+    color: var(--teal-ink);
 }
 
 /* Asymmetric Marginalia Layout */
