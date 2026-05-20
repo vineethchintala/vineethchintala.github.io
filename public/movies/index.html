@@ -37,116 +37,107 @@
 <p>Once in a while a movie elevates itself with a perfect finish, with a final unforgettable impression. It can be the difference between going home satisfied and still remembering it years later. The difference between passing joy and lifelong love.</p>
 </blockquote>
 <p style="font-size: 0.82rem; opacity: 0.7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; letter-spacing: 0.02em; margin-top: 1.5rem; margin-bottom: 2rem;"><strong>Rules:</strong> In no particular order. With few words and No spoilers!</p>
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">01.</span>
-        <span class="film-title">CHUNGKING EXPRESS <span class="film-year">(1994)</span></span>
-    </div>
-    <div class="film-commentary">
-        Shows how effective, and playful, symmetry can be in storytelling. After all, nothing makes a relationship look more convincing than me becoming like you and you becoming like me.
-    </div>
+<div class="cinema-list-container">
+    
 </div>
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">02.</span>
-        <span class="film-title">PORTRAIT OF A LADY ON FIRE <span class="film-year">(2019)</span></span>
-    </div>
-    <div class="film-commentary">
-        &ldquo;Don&rsquo;t regret. Remember.&rdquo; There is a parallel between the creation of art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the story of Eurydice discussed in the film, there is no conflict between love and art here. The final memory of the artist is also the final memory of the lover. My favourite movie of the last 10 years.
-    </div>
-</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const listContainer = document.querySelector('.cinema-list-container');
+    const container = listContainer.parentNode;
+    const h4s = Array.from(container.querySelectorAll('h4'));
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">03.</span>
-        <span class="film-title">AFTERSUN <span class="film-year">(2023)</span></span>
-    </div>
-    <div class="film-commentary">
-        Shared from the perfect distance. Or rather it becomes the perfect distance - you see, the story doesn&rsquo;t unravel; Instead it pulls you in close enough to sense the small clues of sadness, so that you start looking at its moments differently &hellip;indirect yet precise! A remarkable debut. I will be watching everything made by Charlotte Wells.
-    </div>
-</div>
+    h4s.forEach(h4 => {
+        const text = h4.textContent.trim();
+        
+        
+        const numMatch = text.match(/^(\d+)/);
+        const num = numMatch ? numMatch[1] : '';
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">04.</span>
-        <span class="film-title">NINE QUEENS <span class="film-year">(2000)</span></span>
-    </div>
-    <div class="film-commentary">
-        From the many heist and con films I love, here is an Argentinian classic. I might have just as well picked a Soderbergh film but talking about Nine queens also helped me find housing in Barcelona :)
-    </div>
-</div>
+        
+        const yearMatch = text.match(/\(?(\d{4})\)?$/);
+        const year = yearMatch ? yearMatch[1] : '';
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">05.</span>
-        <span class="film-title">THE TRUMAN SHOW <span class="film-year">(1998)</span></span>
-    </div>
-    <div class="film-commentary">
-        It’s probably one of the darkest concepts in the history of film. Perfect execution of the ending, capped with unsurpassed lightness.
-    </div>
-</div>
+        
+        let title = text;
+        if (num) title = title.replace(/^\d+\.\s*/, '');
+        if (year) title = title.replace(/\s*\(?\d{4}\)?$/, '').replace(/,\s*$/, '');
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">06.</span>
-        <span class="film-title">THE BUTTERFLY EFFECT <span class="film-year">(2004)</span></span>
-    </div>
-    <div class="film-commentary">
-        Perfect = good scene + right music. I have seen this movie only once, but the final minute found me a hundred times.
-    </div>
-</div>
+        
+        const row = document.createElement('div');
+        row.className = 'film-row';
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">07.</span>
-        <span class="film-title">THE GOOD, THE BAD AND THE UGLY <span class="film-year">(1966)</span></span>
-    </div>
-    <div class="film-commentary">
-        The classic! Longest movie on this list, but the ending brings complete satisfaction. Compelling, operatic, memorable, mischievous.
-    </div>
-</div>
+        
+        const titleBlock = document.createElement('div');
+        titleBlock.className = 'film-title-block';
+        
+        const numSpan = document.createElement('span');
+        numSpan.className = 'film-num';
+        numSpan.textContent = num;
+        titleBlock.appendChild(numSpan);
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">08.</span>
-        <span class="film-title">BEFORE SUNSET <span class="film-year">(2004)</span></span>
-    </div>
-    <div class="film-commentary">
-        Small is beautiful, mood is everything. This is the soul of the Before trilogy.
-    </div>
-</div>
+        const titleText = document.createTextNode(title);
+        titleBlock.appendChild(titleText);
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">09.</span>
-        <span class="film-title">THE LIVES OF OTHERS <span class="film-year">(2006)</span></span>
-    </div>
-    <div class="film-commentary">
-        When words might not be sufficient, but movies are&hellip; It is always satisfying to see an honest payback, whether it&rsquo;s revenge or gratitude.
-    </div>
-</div>
+        if (year) {
+            const yearSpan = document.createElement('span');
+            yearSpan.className = 'film-year';
+            yearSpan.textContent = ` (${year})`;
+            titleBlock.appendChild(yearSpan);
+        }
+        
+        row.appendChild(titleBlock);
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">10.</span>
-        <span class="film-title">JOINT SECURITY AREA <span class="film-year">(2000)</span></span>
-    </div>
-    <div class="film-commentary">
-        How in a single final shot, we feel the full weight of the movie!
-    </div>
-</div>
+        
+        const commentaryBlock = document.createElement('div');
+        commentaryBlock.className = 'film-commentary';
 
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">11.</span>
-        <span class="film-title">CINEMA PARADISO <span class="film-year">(1988)</span></span>
-    </div>
-    <div class="film-commentary">
-        Takes us back to the beginning, letting us feel the distance the story has travelled.
-    </div>
-</div>
+        
+        let sibling = h4.nextElementSibling;
+        const toMove = [];
+        while (sibling && sibling.tagName !== 'H4' && sibling.tagName !== 'SCRIPT' && sibling !== listContainer) {
+            toMove.push(sibling);
+            sibling = sibling.nextElementSibling;
+        }
 
+        
+        toMove.forEach(el => {
+            
+            commentaryBlock.appendChild(el);
+        });
+        row.appendChild(commentaryBlock);
+
+        
+        listContainer.appendChild(row);
+
+        
+        h4.parentNode.removeChild(h4);
+    });
+});
+</script>
+
+<h4 id="01-chungking-express-1994">01. Chungking Express (1994)</h4>
+<p>Shows how effective, and playful, symmetry can be in storytelling. After all, nothing makes a relationship look more convincing than me becoming like you and you becoming like me.</p>
+<h4 id="02-portrait-of-a-lady-on-fire-2019">02. Portrait of a Lady on Fire (2019)</h4>
+<p>&ldquo;Don&rsquo;t regret. Remember.&rdquo; There is a parallel between the creation of art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the story of Eurydice discussed in the film, there is no conflict between love and art here. The final memory of the artist is also the final memory of the lover. My favourite movie of the last 10 years.</p>
+<h4 id="03-aftersun-2023">03. Aftersun (2023)</h4>
+<p>Shared from the perfect distance. Or rather it becomes the perfect distance - you see, the story doesn&rsquo;t unravel; Instead it pulls you in close enough to sense the small clues of sadness, so that you start looking at its moments differently &hellip;indirect yet precise! A remarkable debut. I will be watching everything made by Charlotte Wells.</p>
+<h4 id="04-nine-queens-2000">04. Nine Queens (2000)</h4>
+<p>From the many heist and con films I love, here is an Argentinian classic. I might have just as well picked a Soderbergh film but talking about Nine queens also helped me find housing in Barcelona :)</p>
+<h4 id="05-the-truman-show-1998">05. The Truman Show (1998)</h4>
+<p>It’s probably one of the darkest concepts in the history of film. Perfect execution of the ending, capped with unsurpassed lightness.</p>
+<h4 id="06-the-butterfly-effect-2004">06. The Butterfly Effect (2004)</h4>
+<p>Perfect = good scene + right music. I have seen this movie only once, but the final minute found me a hundred times.</p>
+<h4 id="07-the-good-the-bad-and-the-ugly-1966">07. The Good, the Bad and the Ugly (1966)</h4>
+<p>The classic! Longest movie on this list, but the ending brings complete satisfaction. Compelling, operatic, memorable, mischievous.</p>
+<h4 id="08-before-sunset-2004">08. Before Sunset (2004)</h4>
+<p>Small is beautiful, mood is everything. This is the soul of the Before trilogy.</p>
+<h4 id="09-the-lives-of-others-2006">09. The Lives of Others (2006)</h4>
+<p>When words might not be sufficient, but movies are&hellip; It is always satisfying to see an honest payback, whether it&rsquo;s revenge or gratitude.</p>
+<h4 id="10-joint-security-area-2000">10. Joint Security Area (2000)</h4>
+<p>How in a single final shot, we feel the full weight of the movie!</p>
+<h4 id="11-cinema-paradiso-1988">11. Cinema Paradiso (1988)</h4>
+<p>Takes us back to the beginning, letting us feel the distance the story has travelled.</p>
 
 
 

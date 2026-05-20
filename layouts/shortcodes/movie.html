@@ -1,9 +1,0 @@
-<div class="film-row">
-    <div class="film-meta">
-        <span class="film-num">{{ .Get "num" }}.</span>
-        <span class="film-title">{{ .Get "title" | upper }}{{ if .Get "year" }} <span class="film-year">({{ .Get "year" }})</span>{{ end }}</span>
-    </div>
-    <div class="film-commentary">
-        {{ .Inner | markdownify }}
-    </div>
-</div>

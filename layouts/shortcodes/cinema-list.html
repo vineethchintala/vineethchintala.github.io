@@ -1,0 +1,78 @@
+<div class="cinema-list-container">
+    <!-- Film rows will be dynamically injected here -->
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const listContainer = document.querySelector('.cinema-list-container');
+    const container = listContainer.parentNode;
+    const h4s = Array.from(container.querySelectorAll('h4'));
+
+    h4s.forEach(h4 => {
+        const text = h4.textContent.trim();
+        
+        // Match number prefix (e.g. "01.")
+        const numMatch = text.match(/^(\d+)/);
+        const num = numMatch ? numMatch[1] : '';
+
+        // Match 4-digit year suffix (e.g. "(1994)" or "1994")
+        const yearMatch = text.match(/\(?(\d{4})\)?$/);
+        const year = yearMatch ? yearMatch[1] : '';
+
+        // Clean up title
+        let title = text;
+        if (num) title = title.replace(/^\d+\.\s*/, '');
+        if (year) title = title.replace(/\s*\(?\d{4}\)?$/, '').replace(/,\s*$/, '');
+
+        // Create the film-row grid container
+        const row = document.createElement('div');
+        row.className = 'film-row';
+
+        // Create left title block
+        const titleBlock = document.createElement('div');
+        titleBlock.className = 'film-title-block';
+        
+        const numSpan = document.createElement('span');
+        numSpan.className = 'film-num';
+        numSpan.textContent = num;
+        titleBlock.appendChild(numSpan);
+
+        const titleText = document.createTextNode(title);
+        titleBlock.appendChild(titleText);
+
+        if (year) {
+            const yearSpan = document.createElement('span');
+            yearSpan.className = 'film-year';
+            yearSpan.textContent = ` (${year})`;
+            titleBlock.appendChild(yearSpan);
+        }
+        
+        row.appendChild(titleBlock);
+
+        // Create right commentary block
+        const commentaryBlock = document.createElement('div');
+        commentaryBlock.className = 'film-commentary';
+
+        // Gather all following elements until the next H4 or SCRIPT or end
+        let sibling = h4.nextElementSibling;
+        const toMove = [];
+        while (sibling && sibling.tagName !== 'H4' && sibling.tagName !== 'SCRIPT' && sibling !== listContainer) {
+            toMove.push(sibling);
+            sibling = sibling.nextElementSibling;
+        }
+
+        // Move paragraphs into the commentary block
+        toMove.forEach(el => {
+            // Keep block level structure
+            commentaryBlock.appendChild(el);
+        });
+        row.appendChild(commentaryBlock);
+
+        // Append the film-row to our list container
+        listContainer.appendChild(row);
+
+        // Delete the original H4 header
+        h4.parentNode.removeChild(h4);
+    });
+});
+</script>
