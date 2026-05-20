@@ -13,7 +13,8 @@
     /* The Palette */
     --teal-ink: #2a7a6f;
     --gold-leaf: #c59b27;
-    --paper-warmth: color-mix(in srgb, white 97%, #c59b27 3%);
+    /* --paper-warmth: color-mix(in srgb, white 97%, #c59b27 3%); */
+    --paper-warmth: #F9F8F6; /* uncoated, high-grade paper (very soft, warm alabaster) */
     --ink-black: #1c1c1c;
     --soft-shadow: rgba(42, 122, 111, 0.05);
 
@@ -34,6 +35,20 @@ body {
 
     -webkit-font-smoothing: antialiased;
     /* Smoother text rendering */
+}
+
+/* Tactile Paper Grain Overlay */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.04; /* Extremely subtle, premium feel */
+    pointer-events: none;
+    z-index: 9999;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
 }
 
 /* Centered Container */
