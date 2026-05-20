@@ -36,91 +36,84 @@
 <blockquote>
 <p>Craving for a new book is like craving for a new friend - who we expect to have all the qualities of the old ones and still be able to constantly surprise us.</p>
 </blockquote>
-<div class="reads-tabs-container">
-    <div class="reads-tabs">
-        <button class="reads-tab active" data-target="fiction">FICTION</button>
-        <span class="reads-tab-divider">/</span>
-        <button class="reads-tab" data-target="nonfiction">NON-FICTION</button>
+<div class="reads-page-grid">
+    <div class="reads-sidebar">
+        <div class="reads-menu">
+            
+        </div>
+    </div>
+    <div class="reads-content-column">
+        
     </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const tabs = document.querySelectorAll('.reads-tab');
-    
-    
-    const h3s = Array.from(document.querySelectorAll('.container h3'));
-    let fictionSection = null;
-    let nonfictionSection = null;
-
-    h3s.forEach(h3 => {
-        const text = h3.textContent.trim().toLowerCase();
-        const isFiction = text.includes('fiction') && !text.includes('non');
-        const isNonFiction = text.includes('non');
-
-        if (isFiction || isNonFiction) {
-            
-            const section = document.createElement('div');
-            section.className = 'reads-section';
-            section.id = isFiction ? 'fiction-section' : 'nonfiction-section';
-            
-            if (isFiction) {
-                section.classList.add('active');
-                fictionSection = section;
-            } else {
-                nonfictionSection = section;
-            }
-
-            
-            const sidebar = document.createElement('div');
-            sidebar.className = 'reading-sidebar';
-            const span = document.createElement('span');
-            span.className = 'sticky-category';
-            span.textContent = isFiction ? 'Fiction' : 'Nonfiction';
-            sidebar.appendChild(span);
-            section.appendChild(sidebar);
-
-            
-            const content = document.createElement('div');
-            content.className = 'reading-content';
-            section.appendChild(content);
-
-            
-            let sibling = h3.nextElementSibling;
-            const toMove = [];
-            while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && !sibling.classList.contains('reads-tabs-container')) {
-                toMove.push(sibling);
-                sibling = sibling.nextElementSibling;
-            }
-
-            
-            toMove.forEach(el => content.appendChild(el));
-
-            
-            h3.parentNode.insertBefore(section, h3);
-            h3.parentNode.removeChild(h3);
-        }
-    });
-
-    function applyFilter(target) {
-        if (fictionSection) {
-            fictionSection.classList.toggle('active', target === 'fiction');
-        }
-        if (nonfictionSection) {
-            nonfictionSection.classList.toggle('active', target === 'nonfiction');
-        }
-    }
+    const pageGrid = document.querySelector('.reads-page-grid');
+    const menuContainer = pageGrid.querySelector('.reads-menu');
+    const contentColumn = pageGrid.querySelector('.reads-content-column');
 
     
-    applyFilter('fiction');
+    const container = pageGrid.parentNode;
+    const h3s = Array.from(container.querySelectorAll('h3'));
+    
+    const sections = [];
 
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            tabs.forEach(t => t.classList.remove('active'));
+    h3s.forEach((h3, index) => {
+        const text = h3.textContent.trim();
+        const id = text.toLowerCase().replace(/[^a-z0-9]/g, '-');
+
+        
+        const section = document.createElement('div');
+        section.className = 'reads-section';
+        section.id = id + '-section';
+        
+        const readingContent = document.createElement('div');
+        readingContent.className = 'reading-content';
+        section.appendChild(readingContent);
+        
+        if (index === 0) {
+            section.classList.add('active');
+        }
+
+        
+        let sibling = h3.nextElementSibling;
+        const toMove = [];
+        while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && sibling !== pageGrid) {
+            toMove.push(sibling);
+            sibling = sibling.nextElementSibling;
+        }
+
+        
+        toMove.forEach(el => readingContent.appendChild(el));
+        
+        
+        contentColumn.appendChild(section);
+        sections.push(section);
+
+        
+        const button = document.createElement('button');
+        button.className = 'reads-menu-item';
+        if (index === 0) {
+            button.classList.add('active');
+        }
+        button.textContent = text.toUpperCase();
+        button.setAttribute('data-target', id);
+        
+        button.addEventListener('click', function() {
+            
+            menuContainer.querySelectorAll('.reads-menu-item').forEach(btn => btn.classList.remove('active'));
+            sections.forEach(sec => sec.classList.remove('active'));
+
+            
             this.classList.add('active');
-            const target = this.getAttribute('data-target');
-            applyFilter(target);
+            section.classList.add('active');
         });
+
+        menuContainer.appendChild(button);
+
+        
+        h3.parentNode.removeChild(h3);
     });
 });
 </script>

@@ -1,88 +1,81 @@
-<div class="reads-tabs-container">
-    <div class="reads-tabs">
-        <button class="reads-tab active" data-target="fiction">FICTION</button>
-        <span class="reads-tab-divider">/</span>
-        <button class="reads-tab" data-target="nonfiction">NON-FICTION</button>
+<div class="reads-page-grid">
+    <div class="reads-sidebar">
+        <div class="reads-menu">
+            <!-- Menu items will be injected here dynamically -->
+        </div>
+    </div>
+    <div class="reads-content-column">
+        <!-- Content sections will be moved here dynamically -->
     </div>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    const tabs = document.querySelectorAll('.reads-tab');
+    const pageGrid = document.querySelector('.reads-page-grid');
+    const menuContainer = pageGrid.querySelector('.reads-menu');
+    const contentColumn = pageGrid.querySelector('.reads-content-column');
+
+    // Find all H3 headers in the container that are siblings of pageGrid
+    const container = pageGrid.parentNode;
+    const h3s = Array.from(container.querySelectorAll('h3'));
     
-    // Find H3 tags for Fiction and Nonfiction
-    const h3s = Array.from(document.querySelectorAll('.container h3'));
-    let fictionSection = null;
-    let nonfictionSection = null;
+    const sections = [];
 
-    h3s.forEach(h3 => {
-        const text = h3.textContent.trim().toLowerCase();
-        const isFiction = text.includes('fiction') && !text.includes('non');
-        const isNonFiction = text.includes('non');
+    h3s.forEach((h3, index) => {
+        const text = h3.textContent.trim();
+        const id = text.toLowerCase().replace(/[^a-z0-9]/g, '-');
 
-        if (isFiction || isNonFiction) {
-            // Create reads-section grid wrapper
-            const section = document.createElement('div');
-            section.className = 'reads-section';
-            section.id = isFiction ? 'fiction-section' : 'nonfiction-section';
-            
-            if (isFiction) {
-                section.classList.add('active');
-                fictionSection = section;
-            } else {
-                nonfictionSection = section;
-            }
-
-            // Create sidebar
-            const sidebar = document.createElement('div');
-            sidebar.className = 'reading-sidebar';
-            const span = document.createElement('span');
-            span.className = 'sticky-category';
-            span.textContent = isFiction ? 'Fiction' : 'Nonfiction';
-            sidebar.appendChild(span);
-            section.appendChild(sidebar);
-
-            // Create content column
-            const content = document.createElement('div');
-            content.className = 'reading-content';
-            section.appendChild(content);
-
-            // Collect all sibling elements up to the next category header or script
-            let sibling = h3.nextElementSibling;
-            const toMove = [];
-            while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && !sibling.classList.contains('reads-tabs-container')) {
-                toMove.push(sibling);
-                sibling = sibling.nextElementSibling;
-            }
-
-            // Move elements into content column
-            toMove.forEach(el => content.appendChild(el));
-
-            // Replace H3 header with the beautifully typeset section grid
-            h3.parentNode.insertBefore(section, h3);
-            h3.parentNode.removeChild(h3);
+        // Create the content section for this category
+        const section = document.createElement('div');
+        section.className = 'reads-section';
+        section.id = id + '-section';
+        
+        const readingContent = document.createElement('div');
+        readingContent.className = 'reading-content';
+        section.appendChild(readingContent);
+        
+        if (index === 0) {
+            section.classList.add('active');
         }
-    });
 
-    function applyFilter(target) {
-        if (fictionSection) {
-            fictionSection.classList.toggle('active', target === 'fiction');
+        // Move all sibling elements until the next H3 or SCRIPT or end
+        let sibling = h3.nextElementSibling;
+        const toMove = [];
+        while (sibling && sibling.tagName !== 'H3' && sibling.tagName !== 'SCRIPT' && sibling !== pageGrid) {
+            toMove.push(sibling);
+            sibling = sibling.nextElementSibling;
         }
-        if (nonfictionSection) {
-            nonfictionSection.classList.toggle('active', target === 'nonfiction');
+
+        // Append elements to the readingContent block inside the section
+        toMove.forEach(el => readingContent.appendChild(el));
+        
+        // Append section to the content column
+        contentColumn.appendChild(section);
+        sections.push(section);
+
+        // Create the menu button in the sidebar
+        const button = document.createElement('button');
+        button.className = 'reads-menu-item';
+        if (index === 0) {
+            button.classList.add('active');
         }
-    }
+        button.textContent = text.toUpperCase();
+        button.setAttribute('data-target', id);
+        
+        button.addEventListener('click', function() {
+            // Remove active classes
+            menuContainer.querySelectorAll('.reads-menu-item').forEach(btn => btn.classList.remove('active'));
+            sections.forEach(sec => sec.classList.remove('active'));
 
-    // Force initial category visibility
-    applyFilter('fiction');
-
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            tabs.forEach(t => t.classList.remove('active'));
+            // Set active
             this.classList.add('active');
-            const target = this.getAttribute('data-target');
-            applyFilter(target);
+            section.classList.add('active');
         });
+
+        menuContainer.appendChild(button);
+
+        // Remove the original H3
+        h3.parentNode.removeChild(h3);
     });
 });
 </script>
