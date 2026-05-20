@@ -9,7 +9,6 @@ title: "Research"
 *(If you have time for only one paper, look at Two Lives.)*
 
 {{< reads-tabs >}}
-
 ### A Matrix Trilogy
 
 *   [Two Lives: Compositions of Unimodular Rows](https://www.sciencedirect.com/science/article/abs/pii/S000187082100356X?via%3Dihub), **Advances in Mathematics** 389 (2021), 107917. &nbsp;&nbsp;
