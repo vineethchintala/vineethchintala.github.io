@@ -5,7 +5,7 @@ title: "Book"
 
 ## Intro to Graph Theory
 
-I taught intro courses on graph theory at IISc (in 2024 and 2025). During this time, I was also working on my book - Graphs, Games, Algorithms. In 2020-21, I spent a year teaching Linear Algebra, Graphs and Algorithms at the University of Hyderabad.
+I taught intro courses on graph theory at IISc (in 2024 and 2025). During this time, I was also working on my book - Graphs, Games, Algorithms. 
 
 {{< bookbox title="Graphs, Games, Algorithms" img="/graphs.jpg" alt="Graphs, Games, Algorithms Book Cover" >}}
 [Free eBook](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
