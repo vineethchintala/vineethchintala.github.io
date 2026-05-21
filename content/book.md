@@ -25,31 +25,30 @@ This is intended to be a short fun book covering graph theory and algorithms, de
 There are a lot of good books and lecture notes out there, each having their own style and content - I recommend checking out and finding what suits your interests. Here is a short curated list.
 
 1.  **Basic to Intermediate:**<br>
-    Invitation to discrete mathematics - Matousek, Nesetril<br>
-    Algorithms illuminated - Roughgarden<br>
-    The discrete mathematical charms of Paul Erdos - Vasek Chvatal<br>
+    Invitation to Discrete Mathematics - Matousek, Nesetril<br>
+    Algorithms Illuminated - Tim Roughgarden<br>
+    The Discrete Mathematical Charms of Paul Erdos - Vasek Chvatal<br>
     Networks, Crowds and Markets - Easley, Kleinberg<br>
 
 2.  **Intermediate to Advanced:**<br>
-    Graph theory, Diestel<br>
-    Spectral and algebraic graph theory, Spielman<br>
-    [Miracles in Algebraic graph theory](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
+    Graph Theory - Reinhard Diestel<br>
+    Spectral and Algebraic Graph Theory - Daniel Spielman<br>
+    [Miracles in Algebraic Graph Theory](https://youtu.be/CDMQR422LGM?si=Qx9Zbta4ejbeTHXo)
 
 3.  **Specialized topics:**<br>
-    Two sided matching - Roth, Sotomayer<br>
-    The game of cops and robbers on Graphs - Bonato, Nowakowski
+    Two Sided Matching - Roth, Sotomayer<br>
+    The Game of Cops and Robbers on Graphs - Bonato, Nowakowski
 
 4.  **Advanced:**<br>
-    The Probabilistic method - Alon, Spencer <br>
+    The Probabilistic Method - Alon, Spencer <br>
     Erdos on Graphs - Chung, Graham <br>
     Enumerative Combinatorics - Richard Stanley
 
 5.  **Some resources for puzzles/gems:**<br>
     Proofs from the Book - Aigner, Ziegler<br>
-    33 miniatures - Matousek<br>
-    Algebraic combinatorics - Stanley (there is a section called Mathematical gems)<br>
+    Thirty-Three Miniatures - Jiri Matousek<br>
     Mathematical Puzzles - Peter Winkler<br>
-    Also recommend checking out people who wrote widely (and well) on recreational mathematics - Henry Dudeney, Sam Lloyd, Martin Gardener, Ross Honsberger, Peter Winkler
+    Also recommend checking out books by puzzle masters like Henry Dudeney, Sam Lloyd, Martin Gardner, Ross Honsberger, etc.
 
 6.  [**A list of famous algorithms**](https://cstheory.stackexchange.com/questions/189/algorithms-from-the-book)
 
