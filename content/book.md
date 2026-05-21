@@ -11,14 +11,16 @@ I taught intro courses on graph theory at IISc (in 2024 and 2025). During this t
 [Free eBook](https://drive.google.com/file/d/16zmmdpEycsWnPuE6XYqkX31RJ_lMnC5S/view) &nbsp;•&nbsp; [Amazon (US)](https://www.amazon.com/dp/B0G7Y588JN)
 
 {{< /bookbox >}}
-The book is extremely modular so read the chapters that appeal to you first. The book has four parts:
+The book has four parts:
 
 >    **Better Way:** uses puzzles to introduce core principles \
 >    **Way Better:** covers classic algorithms \
 >    **The Unreasonable Power of Linear Algebra:** showcases algebraic techniques \
 >    **Senses of a Graph:** surveys major themes
 
-This is intended to be a short fun book covering graph theory and algorithms, designed to be useful irrespective of your major. Feel free to send me feedback.
+While the focus is on the mathematics, the notes were also used by students with different backgrounds (neuroscience, atmospheric sciences, economics, etc.). To make it accessible, the book is designed to be extremely modular. Feel free to jump around and read only those chapters that interest you. 
+
+If you like the book, the best way to support my work is by helping it reach more people - consider sharing the free ebook with a friend or leaving a review on amazon. 
 
 ### Graph theory resources
 
