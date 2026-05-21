@@ -69,7 +69,6 @@ header {
     justify-content: space-between;
     align-items: baseline;
     padding-bottom: 1.25rem;
-    border-bottom: 1px solid rgba(197, 155, 39, 0.2);
     margin-bottom: clamp(40px, 6vh, 80px);
     flex-wrap: nowrap;
     /* Forces them to stay on one line */
