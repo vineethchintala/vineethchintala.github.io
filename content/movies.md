@@ -14,7 +14,7 @@ title: "Cinema"
 Shows how effective, and playful, symmetry can be in storytelling. After all, nothing makes a relationship look more convincing than me becoming like you and you becoming like me.
 
 #### 02. Portrait of a Lady on Fire (2019)
-"Don't regret. Remember." There is a parallel between the creation of art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the story of Eurydice discussed in the film, there is no conflict between love and art here. The final memory of the artist is also the final memory of the lover. My favourite movie of the last 10 years.
+There is a parallel, between art and love, that is seamlessly intertwined in the movie. After all, love is also a journey of discovery. Unlike the Eurydice myth (as interpreted in the film), there is no conflict between love and art in the ending of the movie. The final memory of the artist is also the final memory of the lover.
 
 #### 03. Aftersun (2023)
 Shared from the perfect distance. Or rather it becomes the perfect distance - you see, the story doesn't unravel; Instead it pulls you in close enough to sense the small clues of sadness, so that you start looking at its moments differently ...indirect yet precise! A remarkable debut. I will be watching everything made by Charlotte Wells.
