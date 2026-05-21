@@ -49,10 +49,10 @@
       <h1><a href="/">Vineeth Chintala</a></h1>
       <nav>
         <ul class="nav-tabs">
-          <li><a href="/book">Book</a></li>
-          <li><a href="/movies">Cinema</a></li>
-          <li><a href="/favourite-reads">Library</a></li>
-          <li><a href="/research">Research</a></li>
+          <li><a href="/book"{{ if eq .RelPermalink "/book/" }} class="active"{{ end }}>Book</a></li>
+          <li><a href="/movies"{{ if eq .RelPermalink "/movies/" }} class="active"{{ end }}>Cinema</a></li>
+          <li><a href="/favourite-reads"{{ if eq .RelPermalink "/favourite-reads/" }} class="active"{{ end }}>Library</a></li>
+          <li><a href="/research"{{ if eq .RelPermalink "/research/" }} class="active"{{ end }}>Research</a></li>
         </ul>
       </nav>
     </header>
