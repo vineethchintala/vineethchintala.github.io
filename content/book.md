@@ -18,7 +18,7 @@ The book has four parts:
 >    **The Unreasonable Power of Linear Algebra:** showcases algebraic techniques \
 >    **Senses of a Graph:** surveys major themes
 
-While this is a math textbook, the notes were also used by students with different backgrounds (neuroscience, atmospheric sciences, economics, etc.). To make it accessible, the book is designed to be extremely modular. Feel free to jump around and read only those chapters that interest you. 
+While this is a math textbook, the notes were also useful for students with different backgrounds (neuroscience, atmospheric sciences, economics, computer science, physics, etc.). To make it accessible, the book is designed to be extremely modular. Feel free to jump around and read only those chapters that interest you. 
 
 **If you like the book, the best way to support my work is by helping it reach more people - consider sharing the free ebook with a friend or leaving a review on amazon.** 
 
