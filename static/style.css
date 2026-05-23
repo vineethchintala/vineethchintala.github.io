@@ -195,15 +195,7 @@ hr {
     margin: 3rem 0;
 }
 
-/* Curved Divider for the Poem */
-.curved-divider {
-    height: 35px;
-    border-top: 1.5px solid var(--gold-leaf);
-    border-top-right-radius: 100% 100%;
-    opacity: 0.4;
-    margin: 4rem 0 3rem 0;
-    width: 75%;
-}
+
 
 blockquote {
     border-left: 3px solid var(--gold-leaf);
