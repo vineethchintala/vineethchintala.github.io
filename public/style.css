@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 /* 1. The Artist's Reset */
 *,
@@ -15,10 +15,10 @@
 
     /* The Palette */
     --teal-ink: #2a7a6f;
-    --gold-leaf: #c59b27;
+    --gold-leaf: #b8861b;
     --soft-bone: #F8F5F2;
-    --paper-warmth: color-mix(in srgb, --soft-bone 99%, #c59b27 1%);
-    --ink-black: #1c1c1c;
+    --paper-warmth: color-mix(in srgb, --soft-bone 99%, var(--gold-leaf) 1%);
+    --ink-black: #0a0a0a;
     --soft-shadow: rgba(42, 122, 111, 0.05);
 
     /* Transitions: Slow and graceful, like a curtain closing */
@@ -55,6 +55,16 @@ body::before {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
 }
 
+/* Custom Text Selection (Golden Highlighter) */
+::selection {
+    background-color: rgba(197, 155, 39, 0.35); /* Translucent var(--gold-leaf) */
+    color: var(--ink-black);
+}
+
+::-moz-selection {
+    background-color: rgba(197, 155, 39, 0.35);
+    color: var(--ink-black);
+}
 
 /* Centered Container */
 .container {
@@ -105,7 +115,7 @@ h1 a {
     font-size: 1.05em;
     display: inline-block;
     color: var(--ink-black);
-    opacity: 0.6;
+    opacity: 0.7;
     padding-bottom: 4px;
     border-bottom: 1.5px solid transparent;
     transition: var(--vibe-shift);
@@ -130,7 +140,6 @@ p {
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
-    hyphenate-limit-lines: 2;
     -webkit-hyphenate-limit-lines: 2;
     hyphenate-limit-chars: 6 3 3;
     -webkit-hyphenate-limit-before: 3;
@@ -141,7 +150,6 @@ li {
     text-align: justify;
     hyphens: auto;
     -webkit-hyphens: auto;
-    hyphenate-limit-lines: 2;
     -webkit-hyphenate-limit-lines: 2;
     hyphenate-limit-chars: 6 3 3;
     -webkit-hyphenate-limit-before: 3;
@@ -187,8 +195,9 @@ hr {
     margin: 3rem 0;
 }
 
+
+
 blockquote {
-    font-style: italic;
     border-left: 3px solid var(--gold-leaf);
     padding-left: 1.5rem;
     margin: 2rem 0;
@@ -240,13 +249,14 @@ blockquote {
 
 /* Poem Style */
 .poem {
-    font-style: italic;
+    font-family: var(--font-main);
     white-space: pre-wrap;
     border-left: 2px solid var(--gold-leaf);
     padding-left: 1.5rem;
     font-size: 1em;
-    line-height: 1.9;
+    line-height: 1.8;
     margin: 2rem 0;
+    color: var(--ink-black);
 }
 
 footer {
@@ -373,7 +383,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--teal-ink);
-    opacity: 0.4;
+    opacity: 0.7;
     cursor: pointer;
     text-align: left;
     transition: var(--vibe-shift);
@@ -382,7 +392,7 @@ footer {
 }
 
 .reads-menu-item:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .reads-menu-item.active {
@@ -426,8 +436,9 @@ footer {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
     font-size: 0.95rem;
     font-style: italic;
+    font-weight: 500;
     color: var(--ink-black);
-    opacity: 0.7;
+    opacity: 1;
     margin-top: 0.2rem;
     margin-bottom: 0.8rem;
 }
@@ -438,7 +449,7 @@ footer {
     text-align: justify;
     max-width: 60ch;
     color: var(--ink-black);
-    opacity: 0.9;
+    opacity: 1;
     margin-top: 0;
     margin-bottom: 1.2rem;
 }
