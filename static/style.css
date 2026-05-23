@@ -15,9 +15,9 @@
 
     /* The Palette */
     --teal-ink: #2a7a6f;
-    --gold-leaf: #c59b27;
+    --gold-leaf: #b8861b;
     --soft-bone: #F8F5F2;
-    --paper-warmth: color-mix(in srgb, --soft-bone 99%, #c59b27 1%);
+    --paper-warmth: color-mix(in srgb, --soft-bone 99%, var(--gold-leaf) 1%);
     --ink-black: #0a0a0a;
     --soft-shadow: rgba(42, 122, 111, 0.05);
 
