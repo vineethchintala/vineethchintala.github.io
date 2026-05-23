@@ -188,7 +188,6 @@ hr {
 }
 
 blockquote {
-    font-style: italic;
     border-left: 3px solid var(--gold-leaf);
     padding-left: 1.5rem;
     margin: 2rem 0;
