@@ -253,8 +253,8 @@ blockquote {
     white-space: pre-wrap;
     border-left: 2px solid var(--gold-leaf);
     padding-left: 1.5rem;
-    font-size: 1.1em;
-    font-weight: 500;
+    font-size: 1.2em;
+    font-weight: 600;
     line-height: 1.8;
     margin: 2rem 0;
     color: var(--ink-black);
@@ -437,8 +437,9 @@ footer {
     font-family: 'Cormorant Garamond', 'Georgia', serif;
     font-size: 0.95rem;
     font-style: italic;
+    font-weight: 500;
     color: var(--ink-black);
-    opacity: 0.85;
+    opacity: 1;
     margin-top: 0.2rem;
     margin-bottom: 0.8rem;
 }
@@ -449,7 +450,7 @@ footer {
     text-align: justify;
     max-width: 60ch;
     color: var(--ink-black);
-    opacity: 0.9;
+    opacity: 1;
     margin-top: 0;
     margin-bottom: 1.2rem;
 }
