@@ -12,7 +12,7 @@ I'm Vineeth, a writer and mathematician. Every few years, I try to explore a new
 
 At the end of 2025, I quit academia and have been exploring AI, talking to experts and hosting workshops for companies, etc. I love the energy that comes from collaborating with great teams, so feel free to reach out: **vineethchintala** (at gmail).
 
----
+<div class="curved-divider"></div>
 
 ### PhD Poem
 
