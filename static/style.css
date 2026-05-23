@@ -249,12 +249,11 @@ blockquote {
 
 /* Poem Style */
 .poem {
-    font-family: var(--font-display);
+    font-family: var(--font-main);
     white-space: pre-wrap;
     border-left: 2px solid var(--gold-leaf);
     padding-left: 1.5rem;
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 1em;
     line-height: 1.8;
     margin: 2rem 0;
     color: var(--ink-black);
