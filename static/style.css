@@ -384,7 +384,7 @@ footer {
     text-transform: uppercase;
     letter-spacing: 0.15em;
     color: var(--teal-ink);
-    opacity: 0.4;
+    opacity: 0.7;
     cursor: pointer;
     text-align: left;
     transition: var(--vibe-shift);
@@ -393,7 +393,7 @@ footer {
 }
 
 .reads-menu-item:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .reads-menu-item.active {
