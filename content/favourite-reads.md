@@ -58,6 +58,8 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Death and Life of Great American Cities
 *Jane Jacobs*
 
+#### Tell me no lies: Investigative Journalism and its Triumps
+*Edited by John Pilger*
 
 ### Puzzles
 
@@ -120,3 +122,4 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 
 #### What I Talk About When I Talk About Running
 *Haruki Murakami*
+
