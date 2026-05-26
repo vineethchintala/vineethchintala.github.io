@@ -13,7 +13,7 @@ title: "Library"
 #### In Search of Lost Time
 *Marcel Proust*
 
-Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of a feeling, decoded in a meandering, hypnotic prose.
+Many writers are good at capturing a particular emotion, a specific moment. Proust gives us not just a snapshot but the full story of the feeling, decoded in a meandering, hypnotic prose.
 
 Where Proust excels, perhaps more than any other writer I know, is the intensity he brings to everything. There is always something that the narrator is observing so intimately, and so precisely, like a biologist who probes a single type of organism in a series of experiments, though their ultimate goal might be something as universal as understanding the laws of memory, learning or habit.
 
