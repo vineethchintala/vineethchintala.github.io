@@ -99,7 +99,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Making Movies
 *Sidney Lumet*
 
-#### Songs my mother taught me
+#### Songs My Mother Taught Me
 *Marlon Brando, Robert Lindsay*
 
 #### Out of Sight (Screenplay)
@@ -111,7 +111,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 
 ### Writing
 
-#### This is my Best: Great Writers Share Their Favorite Work
+#### This is My Best: Great Writers Share Their Favorite Work
 *Edited by Retha Powers and Kathy Kiernan*
 
 #### Consider This
