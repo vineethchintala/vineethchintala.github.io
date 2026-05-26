@@ -43,19 +43,16 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Sketches from a Hunter's Album
 *Ivan Turgenev*
 
-### Nonfiction
+### General Nonfiction
+
+#### Consider This
+*Chuck Palahniuk*
 
 #### Repeat After Me
 *David Sedaris*
 
-#### Hitchcock-Truffaut Interviews
-*François Truffaut*
-
 #### Far From the Tree
 *Andrew Solomon*
-
-#### Consider This
-*Chuck Palahniuk*
 
 #### The Power Broker
 *Robert Caro*
@@ -66,5 +63,54 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Death and Life of Great American Cities
 *Jane Jacobs*
 
+#### This is my Best: Great Writers Share Their Favorite Work
+*Edited by Retha Powers and Kathy Kiernan*
+
+### Puzzles
+
+#### Amusements in Mathematics
+*Henry Dudney*
+
+#### Mathematical Puzzles
+*Peter Winkler*
+
+#### Thirty-Three Miniatures
+*Jiri Matousek*
+
+### Science
+
 #### The Sensual Quadratic Form
 *John Conway*
+
+#### Feynman's lost lecture
+*Richard Feynman*
+
+#### Preference, Belief, Similarity
+*Amos Tversky*
+
+#### Exposition by Emil Artin
+*Emil Artin*
+
+#### Economics: A New Introduction
+*Hugh Stretton*
+
+
+
+### Cinema
+
+#### Hitchcock-Truffaut Interviews
+*François Truffaut*
+
+#### Making Movies
+*Sidney Lumet*
+
+#### Songs my mother taught me
+*Marlon Brando, Robert Lindsay*
+
+#### Out of Sight (Screenplay)
+*Scott Frank*
+
+#### The Art of Acting
+*Stella Adler*
+
+
