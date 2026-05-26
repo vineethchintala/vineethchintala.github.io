@@ -40,13 +40,8 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### All the Names
 *José Saramago*
 
-#### Sketches from a Hunter's Album
-*Ivan Turgenev*
 
 ### General Nonfiction
-
-#### Consider This
-*Chuck Palahniuk*
 
 #### Repeat After Me
 *David Sedaris*
@@ -63,8 +58,6 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Death and Life of Great American Cities
 *Jane Jacobs*
 
-#### This is my Best: Great Writers Share Their Favorite Work
-*Edited by Retha Powers and Kathy Kiernan*
 
 ### Puzzles
 
@@ -114,3 +107,16 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 *Stella Adler*
 
 
+### Writing
+
+#### This is my Best: Great Writers Share Their Favorite Work
+*Edited by Retha Powers and Kathy Kiernan*
+
+#### Consider This
+*Chuck Palahniuk*
+
+#### On Writing
+*Stephen King*
+
+#### What I Talk About When I Talk About Running
+*Haruki Murakami*
