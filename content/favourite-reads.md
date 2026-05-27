@@ -13,7 +13,7 @@ title: "Library"
 
 #### 19th Century Russian Literature
 * *
-This is my favourite period in literature. I see it as two different strands. There is the playful, sarcastic, somewhat cynical approach to life in Pushkin, Gogol, and Lermontov. Then there is a quiet but sweeping exploration of humanity in Tolstoy, Dostoevsky and Chekhov.
+This is my favourite period in literature. I see it as two different strands. One side is the playful, sarcastic, somewhat cynical approach to life in Pushkin, Gogol, and Lermontov. Then there is a quiet but sweeping exploration of humanity in Tolstoy, Dostoevsky and Chekhov.
 
 
 #### In Search of Lost Time
