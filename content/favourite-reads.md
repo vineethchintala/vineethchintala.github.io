@@ -10,6 +10,12 @@ title: "Library"
 
 ### Fiction
 
+
+#### 19th Century Russian Literature
+* *
+This is my favourite period in literature. I see it as two different strands. There is the playful, sarcastic, somewhat cynical approach to life in Pushkin, Gogol, and Lermontov. Then there is a quiet but sweeping exploration of humanity in Tolstoy, Dostoevsky and Chekhov.
+
+
 #### In Search of Lost Time
 *Marcel Proust*
 
@@ -30,11 +36,7 @@ A thinking novel, baked with huge ambition and a creamy layer of lightness. Musi
 In my world, this is the best type of novel - short, deep and playful. With exquisite timing, Pushkin can keep you waiting with anticipation, or pass a few comments to make clever transitions that other writers use pages to develop. Eugene Onegin is never boring! (Check out the James Falen translation.)
 
 The form, the transitions, the range of emotions, the storytelling; There is nothing like it. I delayed submitting my math PhD thesis so that I can include a [poem](/#phd-poem) written in the same rhyme pattern. Vikram Seth, when he was a graduate student in Economics, liked Eugene Onegin so much that he read it five times in one month and went on to write The Golden Gate.
-
-
-#### 19th Century Russian Literature
-* *
-This is my favourite period in literature. I see it as two different strands. There is the playful, sarcastic, somewhat cynical approach to life in Pushkin, Gogol, and Lermontov. Then there is a quiet but sweeping exploration of humanity in Tolstoy, Dostoevsky and Chekhov. 
+ 
 
 
 #### Gateway
