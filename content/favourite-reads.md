@@ -70,7 +70,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### Death and Life of Great American Cities
 *Jane Jacobs*
 
-#### Tell me no lies: Investigative Journalism and its Triumps
+#### Tell me no lies: Investigative Journalism and its Triumphs
 *Edited by John Pilger*
 
 ### Puzzles
@@ -89,7 +89,7 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### The Sensual Quadratic Form
 *John Conway*
 
-#### Feynman's lost lecture
+#### Feynman Lectures on Physics
 *Richard Feynman*
 
 #### Preference, Belief, Similarity
