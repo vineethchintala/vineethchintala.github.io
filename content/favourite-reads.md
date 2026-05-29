@@ -144,5 +144,3 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### [Manuel Blum](https://www.cs.cmu.edu/~mblum/research/pdf/grad.html)
 
 #### [Gian-Carlo Rota](https://www.ams.org/notices/199701/comm-rota.pdf)
-
-#### [Marie desJardins](https://www.ai.sri.com/~marie/papers/advice-summary.html)
