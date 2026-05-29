@@ -135,3 +135,14 @@ The form, the transitions, the range of emotions, the storytelling; There is not
 #### What I Talk About When I Talk About Running
 *Haruki Murakami*
 
+### Career Advice
+
+#### [Advice to a Young Mathematician](https://assets.press.princeton.edu/releases/gowers/gowers_VIII_6.pdf)
+
+#### [Good Research Practices](https://cstheory.stackexchange.com/questions/2953/advice-on-good-research-practices)
+
+#### [Manuel Blum](https://www.cs.cmu.edu/~mblum/research/pdf/grad.html)
+
+#### [Gian-Carlo Rota](https://www.ams.org/notices/199701/comm-rota.pdf)
+
+#### [Marie desJardins](https://www.ai.sri.com/~marie/papers/advice-summary.html)
