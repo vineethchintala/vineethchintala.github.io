@@ -16,9 +16,9 @@ I taught intro courses on graph theory at IISc in 2024 and 2025. During this tim
 The book has four parts:
 
 >    **Better Way:** uses puzzles to introduce core principles \
->    **Way Better:** covers classic algorithms \
->    **The Unreasonable Power of Linear Algebra:** showcases algebraic techniques \
->    **Senses of a Graph:** surveys major themes
+>    **The Power of Algorithms:** covers classic algorithms \
+>    **The Power of Linear Algebra:** showcases algebraic techniques \
+>    **Way Better:** surveys major themes
 
 While this is a math textbook, the notes were also useful for students with different backgrounds (neuroscience, economics, computer science, physics, etc.). To make it accessible, the book is designed to be extremely modular. Feel free to jump around and read only those chapters that interest you. 
 
